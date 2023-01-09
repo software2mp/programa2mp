@@ -1,0 +1,74 @@
+cmake_minimum_required(VERSION 2.6)
+
+FIND_PACKAGE(SuriLib REQUIRED)
+
+GENERATE_SVN_VERSION(src/svn_version.h)
+
+SET(ADDITIONAL_SOURCES ${ADDITIONAL_SOURCES} svn_version.h)
+
+ADD_RESOURCE(Application.rc)
+
+if(COMMAND cmake_policy)
+	cmake_policy(SET CMP0003 NEW)
+endif(COMMAND cmake_policy)
+
+IF(GETTEXT_FOUND)
+# es_ES
+	GENERATE_TRANSLATIONS(${PROJECT_BINARY_DIR}/src/data/locale/es/LC_MESSAGES/Application.mo
+									${PROJECT_SOURCE_DIR}/src/locale/es/Application.po)
+	GENERATE_TRANSLATIONS(${PROJECT_BINARY_DIR}/src/data/locale/es/LC_MESSAGES/resources.mo
+									${PROJECT_SOURCE_DIR}/src/locale/es/resources.po)
+	IF (EXISTS ${PROJECT_SOURCE_DIR}/lib/suri/locale/es/suri.po)
+		GENERATE_TRANSLATIONS(${PROJECT_BINARY_DIR}/src/data/locale/es/LC_MESSAGES/suri.mo
+									${PROJECT_SOURCE_DIR}/lib/suri/locale/es/suri.po)
+	ENDIF(EXISTS ${PROJECT_SOURCE_DIR}/lib/suri/locale/es/suri.po)
+
+# es_AR
+    GENERATE_TRANSLATIONS(${PROJECT_BINARY_DIR}/src/data/locale/es_AR/LC_MESSAGES/Application.mo
+                                    ${PROJECT_SOURCE_DIR}/src/locale/es_AR/Application.po)
+    GENERATE_TRANSLATIONS(${PROJECT_BINARY_DIR}/src/data/locale/es_AR/LC_MESSAGES/resources.mo
+                                    ${PROJECT_SOURCE_DIR}/src/locale/es_AR/resources.po)
+    IF (EXISTS ${PROJECT_SOURCE_DIR}/lib/suri/locale/es_AR/suri.po)
+        GENERATE_TRANSLATIONS(${PROJECT_BINARY_DIR}/src/data/locale/es_AR/LC_MESSAGES/suri.mo
+                                    ${PROJECT_SOURCE_DIR}/lib/suri/locale/es_AR/suri.po)
+    ENDIF(EXISTS ${PROJECT_SOURCE_DIR}/lib/suri/locale/es_AR/suri.po)
+ENDIF(GETTEXT_FOUND)
+
+IF (NOT ${PROJECT_SOURCE_DIR} STREQUAL ${PROJECT_BINARY_DIR})
+	MESSAGE(STATUS "Copiando datos de programa")
+	FILE(COPY ${PROJECT_SOURCE_DIR}/lib/resources/bitmaps DESTINATION ${PROJECT_BINARY_DIR}/lib/resources/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/src/data DESTINATION ${PROJECT_BINARY_DIR}/src/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/installer.sh DESTINATION ${PROJECT_BINARY_DIR}/)
+	IF(EXISTS ${PROJECT_SOURCE_DIR}/installer_data.sh)
+		FILE(COPY ${PROJECT_SOURCE_DIR}/installer_data.sh DESTINATION ${PROJECT_BINARY_DIR}/)
+	ENDIF(EXISTS ${PROJECT_SOURCE_DIR}/installer_data.sh)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/default.apspec DESTINATION ${PROJECT_BINARY_DIR}/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/installer.nsi DESTINATION ${PROJECT_BINARY_DIR}/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/LinuxShortcut.desktop DESTINATION ${PROJECT_BINARY_DIR}/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/application.xml DESTINATION ${PROJECT_BINARY_DIR}/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/src/Licencia.txt DESTINATION ${PROJECT_BINARY_DIR}/src/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/src/Cambios.txt DESTINATION ${PROJECT_BINARY_DIR}/src/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/src/Leame.txt DESTINATION ${PROJECT_BINARY_DIR}/src/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/src/configuracion.xml DESTINATION ${PROJECT_BINARY_DIR}/src/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/CMakeLists.txt DESTINATION ${PROJECT_BINARY_DIR}/)
+	FILE(COPY ${PROJECT_SOURCE_DIR}/Application.doxyfile DESTINATION ${PROJECT_BINARY_DIR}/)
+ENDIF (NOT ${PROJECT_SOURCE_DIR} STREQUAL ${PROJECT_BINARY_DIR})
+
+INCLUDE(CMakeFiles.txt)
+INCLUDE_DIRECTORIES("${PROJECT_SOURCE_DIR}/lib/suri/widgets/")
+INCLUDE_DIRECTORIES("${PROJECT_SOURCE_DIR}/lib/suri/core/")
+
+# Hasta que resuelva el archivo de inclusion estilo config.h
+SET(function "InitApplicationXmlResource()")
+SET(forward "void ${function}")
+ADD_DEFINITIONS(-DAPPLICATION_XRC_INITIALIZATION_FUNCTION_FORWARD=${forward})
+ADD_DEFINITIONS(-DAPPLICATION_XRC_INITIALIZATION_FUNCTION=${function})
+
+CHECK_ETIQUETTE(MAIN_SOURCES_ETT ${MAIN_SOURCES})
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${MAIN_SOURCES} ${MAIN_SOURCES_ETT} 
+									${RESOURCES_SOURCES} ${ADDITIONAL_SOURCES})
+
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} resources ${SURILIB_LIBRARIES} )
+
+ADD_DEPENDENCIES(${PROJECT_NAME} Version)

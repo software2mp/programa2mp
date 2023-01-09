@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+<!--Splash-->
+	<object class="wxBitmap">bitmaps/splash-Application.png</object>
+<!--126-->
+	<object class="wxBitmap">bitmaps/picture-NorthArrow-128.png</object>
+<!--48-->
+	<object class="wxBitmap">bitmaps/context-SatelliteImage-48.png</object>
+	<object class="wxBitmap">bitmaps/context-Map-48.png</object>
+	<object class="wxBitmap">bitmaps/context-Terrain-48.png</object>
+	<object class="wxBitmap">bitmaps/context-Document-48.png</object>
+	<object class="wxBitmap">bitmaps/context-Photo-48.png</object>
+	<object class="wxBitmap">bitmaps/context-Exercises-48.png</object>
+<!--32-->
+	<object class="wxBitmap">bitmaps/icon-MapElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-PhotoElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-DocumentElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-AnotationElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-HotlinkElement-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-PhotoProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-AnotationProperties-32.png</object>
+	<object class="wxBitmap">bitmaps/icon-HotlinkProperties-32.png</object>
+<!--16-->
+	<object class="wxBitmap">bitmaps/tool-ZoomIn-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-Drag-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-IdentifyHotlink-16.png</object>
+	<object class="wxBitmap">bitmaps/button-ZoomFullExtent-16.png</object>
+	<object class="wxBitmap">bitmaps/button-SaveView-16.png</object>
+	<object class="wxBitmap">bitmaps/button-ZoomOneToOne-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-Navigation-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-PATFile-16.png</object>
+	<object class="wxBitmap">bitmaps/button-PauseAnimation-16.png</object>
+	<object class="wxBitmap">bitmaps/button-PlayAnimation-16.png</object>
+	<object class="wxBitmap">bitmaps/button-CheckOn-16.png</object>
+	<object class="wxBitmap">bitmaps/button-CheckOff-16.png</object>
+	<object class="wxBitmap">bitmaps/button-MapLegend-16.png</object>
+	<object class="wxBitmap">bitmaps/button-MapScale-16.png</object>
+	<object class="wxBitmap">bitmaps/button-MapNorthArrow-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-CustomPAT-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-BlockedPAT-16.png</object>
+	<object class="wxBitmap">bitmaps/icon-Application-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawAnotation-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawPoint-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawLine-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-DrawPolygon-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-GpsPoint-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-GpsLine-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-GpsPolygon-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-MeasureDistance-16.png</object>
+	<object class="wxBitmap">bitmaps/tool-MeasureArea-16.png</object>
+	<object class="wxBitmap">bitmaps/button-PrintDocument-16.png</object>
+	<object class="wxBitmap">bitmaps/button-Mark-16.png</object>	
+	<object class="wxBitmap">bitmaps/button-Delete-16.png</object>
+	<object class="wxBitmap">bitmaps/button-Close-16.png</object>
+</resource>

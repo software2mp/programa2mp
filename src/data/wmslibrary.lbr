@@ -1,0 +1,11 @@
+Extended=Servidor prueba BlueMarble;Principal=BlueMarble;URL=http://demo.mapserver.org/cgi-bin/wms
+Extended=Instituto Geografico Nacioanl de la Republica Argentina;URL=http://wms.ign.gob.ar/geoserver/ows;Principal=IGN
+Extended=Programa Nacional Mapa Educativo;URL=http://www.mapaeducativo.edu.ar/geoserver/ogc/ows;Principal=Programa Nacional Mapa Educativo
+Extended=Secretaria de Energia;URL=http://sig.se.gob.ar/cgi-bin/mapserv6?map=/var/www/html/visor/geofiles/map/mapase.map&SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities;Principal=Secretaria de Energia
+Extended=Instituto Nacional de Tecnologia Agropecuaria;Principal=INTA;URL=http://geointa.inta.gov.ar/geoserver/wms
+Extended=Servicios wms de ARBA;Principal=Servicios wms de ARBA;URL=http://cartoservices.arba.gov.ar/geoserver/wms
+Extended=Servicios wms de Educacion (Mapa Escolar);Principal=Mapa Escolar;URL=http://190.210.101.129/cgi-bin/mapaescolar
+Extended=Servicios wms de la Direccion Provincial de Ordenamiento Urbano y Territorial (Subsecretaria de Gobierno, Ministerio de Gobierno (urBAsig));Principal=urBAsig;URL=http://sig.gobierno.gba.gov.ar:8080/geoserver/urbasig/wms
+Extended=NASA JPL Web Mapping Server;Principal=NASA;URL=http://wms.jpl.nasa.gov/wms.cgi
+Extended=SEDAC;Principal=SEDAC;URL=http://sedac.ciesin.columbia.edu/geoserver/gwc/service/wms
+Extended=Instituto Nacional de EstadIstica y Censos;URL=http://200.51.91.231/cgi-bin/mapserv?program=/cgibin/mapserv&map=/prosiga/INDEC_WMS_Poblacion.map&SERVICE=WMS&Version=1.1.1&REQUEST=GetCapabilities;Principal=INDEC

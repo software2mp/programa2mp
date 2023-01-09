@@ -1,0 +1,332 @@
+# ARCHIVO DE TRADUCCION DE RECURSOS DEL SOFTWARE DEL PROGRAMA 2Mp
+# Copyright (C) 2009 SUR Emprendimientos Tecnologicos
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2MP 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-01 15:03-0300\n"
+"PO-Revision-Date: 2009-04-29 16:03-0300\n"
+"Last-Translator: SUR <contacto@suremptec.com.ar>\n"
+"Language-Team: SUR <contacto@suremptec.com.ar>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: PatManager.xrc.cpp:10
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: ElementMenu.xrc.cpp:4
+msgid "&Cerrar"
+msgstr ""
+
+#: ElementMenu.xrc.cpp:2
+msgid "&Desplegar"
+msgstr ""
+
+#: PatManager.xrc.cpp:9
+msgid "&OK"
+msgstr ""
+
+#: ElementMenu.xrc.cpp:3
+msgid "&Ocultar"
+msgstr ""
+
+#: ElementMenu.xrc.cpp:5
+msgid "&Propiedades"
+msgstr ""
+
+#: AnimationTool.xrc.cpp:2
+msgid "1"
+msgstr ""
+
+#: MapTool.xrc.cpp:4
+msgid "1 grado"
+msgstr ""
+
+#: MapTool.xrc.cpp:7
+msgid "10 grados"
+msgstr ""
+
+#: MapTool.xrc.cpp:5
+msgid "2 grados"
+msgstr ""
+
+#: MapTool.xrc.cpp:8
+msgid "20 grados"
+msgstr ""
+
+#: MapTool.xrc.cpp:9
+msgid "30 grados"
+msgstr ""
+
+#: MapTool.xrc.cpp:6
+msgid "5 grados"
+msgstr ""
+
+#: PatManager.xrc.cpp:4
+msgid "Abrir PAT seleccionado"
+msgstr ""
+
+#: PatManager.xrc.cpp:1 PatToolbar.xrc.cpp:3
+msgid "Administracion de PATs"
+msgstr "Administración de PATs"
+
+#: PatToolbar.xrc.cpp:5
+msgid "Agregar elemento"
+msgstr ""
+
+#: AdjustTool.xrc.cpp:1
+msgid "Ajustes"
+msgstr ""
+
+#: AnimationTool.xrc.cpp:1
+msgid "Animacion"
+msgstr "Animación"
+
+#: AnimationTool.xrc.cpp:6
+msgid "Animar / Pausar"
+msgstr ""
+
+#: AnotationTool.xrc.cpp:1
+msgid "Anotaciones"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:1
+msgid "AnotationProperties"
+msgstr "AnotationProperties"
+
+#: PatInfo.xrc.cpp:4
+msgid "Autor"
+msgstr ""
+
+#: AnimationTool.xrc.cpp:7
+msgid "Avanzar"
+msgstr ""
+
+#: PatManager.xrc.cpp:8 GenericContextPanel.xrc.cpp:2
+msgid "Ayuda"
+msgstr ""
+
+#: PatToolbar.xrc.cpp:6
+msgid "Cerrar elemento"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:10
+msgid "Color"
+msgstr ""
+
+#: PatToolbar.xrc.cpp:7
+msgid "Configuracion"
+msgstr "Configuración"
+
+#: CHtmlToolbar.xrc.cpp:1
+msgid "Context HTML Toolbar"
+msgstr "Barra de herramientas de contexto HTML"
+
+#: ContextTools.xrc.cpp:1
+msgid "Context Tools"
+msgstr "Herramientas de contexto"
+
+#: PatInfo.xrc.cpp:5
+msgid "Copyright"
+msgstr ""
+
+#: PatManager.xrc.cpp:2
+msgid "Crear nuevo PAT"
+msgstr ""
+
+#: HotLinkProperties.xrc.cpp:3 PhotoProperties.xrc.cpp:3 PatInfo.xrc.cpp:3
+msgid "Descripcion"
+msgstr "Descripción"
+
+#: AnimationTool.xrc.cpp:5
+msgid "Detener"
+msgstr ""
+
+#: PatManager.xrc.cpp:3
+msgid "Editar propiedades"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:6
+msgid "Efectos"
+msgstr ""
+
+#: PatManager.xrc.cpp:7
+msgid "Eliminar PAT"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:12
+msgid "Fondo"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:3 AnotationProperties.xrc.cpp:11
+msgid "Fuente"
+msgstr ""
+
+#: PatManager.xrc.cpp:6
+msgid "Generar archivo PAT"
+msgstr ""
+
+#: GenericContextPanel.xrc.cpp:1
+msgid "Generic Context"
+msgstr "Contexto genérico"
+
+#: MapTool.xrc.cpp:2
+msgid "Grilla"
+msgstr ""
+
+#: PatToolbar.xrc.cpp:4
+msgid "Guardar PAT"
+msgstr ""
+
+#: MeasurementTool.xrc.cpp:6
+msgid "Hectareas"
+msgstr "Hectáreas"
+
+#: HotLinkProperties.xrc.cpp:1
+msgid "HotLinkProperties"
+msgstr ""
+
+#: HtmlViewer.xrc.cpp:1
+msgid "HtmlViewer"
+msgstr ""
+
+#: CHtmlToolbar.xrc.cpp:2
+msgid "Imprimir"
+msgstr ""
+
+#: PatInfo.xrc.cpp:1
+msgid "Informacion Pat"
+msgstr "Información Pat"
+
+#: PatManager.xrc.cpp:5
+msgid "Instalar PAT desde archivo"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:8
+msgid "Italica"
+msgstr "Itálica"
+
+#: MeasurementTool.xrc.cpp:3
+msgid "Kilometros"
+msgstr "Kilómetros"
+
+#: MeasurementTool.xrc.cpp:5
+msgid "Kilometros^2"
+msgstr "Kilómetros²"
+
+#: LayerList.xrc.cpp:1
+msgid "LayerList"
+msgstr ""
+
+#: MapTool.xrc.cpp:1
+msgid "Mapa"
+msgstr ""
+
+#: MeasurementTool.xrc.cpp:1
+msgid "Medicion"
+msgstr "Medición"
+
+#: ElementMenu.xrc.cpp:1
+msgid "Menu"
+msgstr "Menú"
+
+#: MeasurementTool.xrc.cpp:2
+msgid "Metros"
+msgstr ""
+
+#: MeasurementTool.xrc.cpp:4
+msgid "Metros^2"
+msgstr "Metros²"
+
+#: AnotationProperties.xrc.cpp:7
+msgid "Negrita"
+msgstr ""
+
+#: MapTool.xrc.cpp:3
+msgid "Ninguna"
+msgstr ""
+
+#: PatToolbar.xrc.cpp:2
+msgid "Nuevo PAT"
+msgstr ""
+
+#: PatToolbar.xrc.cpp:1
+msgid "PAT Toolbar"
+msgstr "Barra de herramientas de PAT"
+
+#: PhotoProperties.xrc.cpp:1
+msgid "Propiedades de Fotografia"
+msgstr "Propiedades de Fotografía"
+
+#: AnimationTool.xrc.cpp:4
+msgid "Retroceder"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:9
+msgid "Subrayado"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:5
+msgid "Tamanio"
+msgstr "Tamaño"
+
+#: AnotationProperties.xrc.cpp:2
+msgid "Texto"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:4
+msgid "Tipo"
+msgstr ""
+
+#: HotLinkProperties.xrc.cpp:2 PhotoProperties.xrc.cpp:2 PatInfo.xrc.cpp:2
+msgid "Titulo"
+msgstr "Título"
+
+#: HotLinkProperties.xrc.cpp:4
+msgid "Url Imagen"
+msgstr ""
+
+#: VectorTool.xrc.cpp:1
+msgid "Vectores"
+msgstr ""
+
+#: AnotationProperties.xrc.cpp:13 PatInfo.xrc.cpp:6
+msgid "Vista Previa"
+msgstr ""
+
+#: AnimationTool.xrc.cpp:3
+msgid "cps"
+msgstr ""
+
+#~ msgid "&Apply"
+#~ msgstr "&Aplicar"
+
+#~ msgid "&Back"
+#~ msgstr "A&nterior"
+
+#~ msgid "&Forward"
+#~ msgstr "&Siguiente"
+
+#~ msgid "Context 3D Toolbar"
+#~ msgstr "Barra de herramientas de contexto 3D"
+
+#~ msgid "Exageracion"
+#~ msgstr "Exageración"
+
+#~ msgid "Exageracion de Relieve"
+#~ msgstr "Exageración de Relieve"
+
+#~ msgid "Linea"
+#~ msgstr "Línea"
+
+#~ msgid "Simbolo"
+#~ msgstr "Símbolo"
+
+#~ msgid "Vel. Camara"
+#~ msgstr "Vel. Cámara"
+
+#~ msgid "Velocidad de Camara"
+#~ msgstr "Velocidad de Cámara"

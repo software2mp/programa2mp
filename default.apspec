@@ -1,0 +1,53 @@
+# -*-shell-script-*-
+
+[Meta]
+RootName: @suremptec.com/programa2mp:3.0.0
+DisplayName: Programa 2Mp
+ShortName: programa2mp
+Maintainer: Javier Urien <javierurien@suremptec.com.ar>
+Packager: Javier Urien <javierurien@suremptec.com.ar>
+Summary: GIS & Raster
+Summary[es]: SIG y Raster 
+URL: http://www.suremptec.com/
+License: Free for non commercial use
+License[es]: Gratuita para uso no comercial
+SoftwareVersion: 3.0.0
+AutopackageTarget: 1.4
+CPUArchitectures: x86
+Compression: bzip2
+PackageReporting: No
+RootInstallOnly: Yes
+PackageFileName: $DISPLAYNAME-v$SOFTWAREVERSION.package
+
+[Description]
+GIS & Raster
+
+[Description:es]
+SIG y Raster 
+
+[Imports]
+echo '*' | grep -v default.apspec | import
+
+[Prepare]
+require @gtk.org/gtk 2.4
+require @opengl.org/opengl 1.2
+require @opengl.org/glu 1
+
+[BuildPrepare]
+cp * $build_root -R
+
+[BuildUnprepare]
+rm $build_root/* -R
+
+[Install]
+installExe Programa2Mp programa2mp.sh
+copyFiles data "$PREFIX"/share/Programa2Mp
+installIcon hicolor
+installLib lib/*
+linkFile --silent /usr/lib/libtiff.so.4 "$PREFIX"/lib/libtiff.so.3
+installMenuItem "Education" "Programa2Mp.desktop"
+installMime programa2Mp.xml
+
+[Uninstall]
+uninstallFromLog
+

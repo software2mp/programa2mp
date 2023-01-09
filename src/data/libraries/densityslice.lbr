@@ -1,0 +1,1 @@
+Extended=Normalized Difference Vegetation Index;Principal=NVDI;range={Sin vegetacion,-inf,0.1};range={Vegetacion escasa,0.1,0.2};range={Vegetacion media,0.2,0.4};range={Vegetacion espesa,0.4,0.8};range={0.8,inf}

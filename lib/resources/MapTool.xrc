@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_MAP_TOOL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Mapa</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW|wxLEFT|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxStaticLine" name="wxID_STATIC">
+                    <style>wxLI_VERTICAL</style>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="wxID_STATIC">
+                    <label>Grilla</label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxChoice" name="ID_CMB_GRID">
+                    <size>-1,24</size>
+                    <content>
+                        <item>Ninguna</item>
+                        <item>1 grado</item>
+                        <item>2 grados</item>
+                        <item>5 grados</item>
+                        <item>10 grados</item>
+                        <item>20 grados</item>
+                        <item>30 grados</item>
+                    </content>
+                    <selection>0</selection>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

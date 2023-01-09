@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_MEASSUREMENT_TOOL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Medicion</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxChoice" name="ID_CHOICE_DISTANCE_UNIT">
+                    <size>-1,24</size>
+                    <content>
+                        <item>Metros</item>
+                        <item>Kilometros</item>
+                    </content>
+                    <selection>1</selection>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxChoice" name="ID_CHOICE_AREA_UNIT">
+                    <size>-1,24</size>
+                    <hidden>1</hidden>
+                    <content>
+                        <item>Metros^2</item>
+                        <item>Kilometros^2</item>
+                        <item>Hectareas</item>
+                    </content>
+                    <selection>1</selection>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

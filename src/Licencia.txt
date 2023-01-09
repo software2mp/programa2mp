@@ -1,0 +1,137 @@
+SoPI, Software de Procesamiento de Imágenes de la CONAE
+
+Hecho el depósito que marca la Ley 11.723
+
+El Software se encuentra disponible en forma gratuita en
+http://2mp.conae.gov.ar
+
+TÉRMINOS LICENCIA DE USO:
+
+Resumen de las condiciones esenciales:
+
+* EL PRESENTE SOFTWARE SE ENCUENTRA PROTEGIDO POR LEYES
+Y TRATADOS RELATIVOS A PROPIEDAD INTELECTUAL Y ES DE
+TITULARIDAD EXCLUSIVA DE LA COMISIÓN NACIONAL DE ACTIVIDADES
+ESPACIALES (CONAE).
+
+El Usuario es libre de utilizar el Software, en forma gratuita, y siempre para uso
+individual y no comercial.
+
+Bajo las siguientes condiciones:
+* Atribución: Deben mantenerse todas las menciones relativas a marcas registradas
+(2Mp® )y derechos de propiedad intelectual contenidos en el Software:
+Además, debe citarse a http://2mp.conae.gov.ar como origen del Software.
+
+El Usuario NO puede:
+* hacer uso comercial del Software
+* preinstalar el Software si carece de una licencia especial a tal efecto
+* distribuir el Software sin autorización expresa de la CONAE
+
+EL USUARIO LIBERA AL LICENCIANTE DE TODA RESPONSABILIDAD POR
+CUALQUIER CONSECUENCIA PROVENIENTE DEL USO DEL SOFTWARE.
+
+A continuación se transcribe el texto completo de la ACUERDO DE LICENCIA que se
+otorga:
+
+ACUERDO DE LICENCIA DE USO DE SOFTWARE ("LICENCIA")
+
+Software protegido - Titular
+Los archivos electrónicos que procederá a instalar, en adelante el "SOFTWARE" están
+protegidos bajo el régimen legal de la propiedad intelectual de la República Argentina
+y por los tratados internacionales sobre la materia que se encuentran en vigencia,
+siendo su titular exclusivo la Comisión Nacional de Actividades Espaciales en lo
+sucesivo"CONAE".
+
+Licencia de uso. Propiedad del Software
+El SOFTWARE se pone a disposición de usted, en adelante el "Usuario" en virtud de
+una licencia de uso gratuita, en lo sucesivo la "LICENCIA" otorgada por la CONAE.
+El presente Acuerdo de Licencia define lo que el Usuario puede hacer o no con el
+
+SOFTWARE.
+No es intención de la CONAE transferir a través de la LICENCIA la propiedad del
+SOFTWARE, ni de los componentes o datos que lo integran, ni los derechos de autor ni
+ningún otro derecho sobre los mismos.
+
+Aceptación de la Licencia
+El uso del SOFTWARE por parte del Usuario implica que ha leído las condiciones
+establecidas en la LICENCIA y que está de acuerdo con tales condiciones y
+con la legislación aplicable. En caso de no estar de acuerdo con las condiciones
+aquí detalladas, el Usuario deberá abstenerse de proceder con la instalación del
+SOFTWARE.
+
+Utilización no exclusiva del Software
+El Usuario tiene derecho a utilizar el SOFTWARE en forma no comercial, no
+exclusiva, no transferible y gratuita, con facultades para instalarlo en cualquier tipo de
+dispositivo electrónico, propiedad del Usuario, que tenga la capacidad para ejecutar
+el SOFTWARE. El Usuario no está autorizado a integrar el SOFTWARE o parte
+del mismo a otras aplicaciones. Tampoco podrá desensamblar, adaptar, decompilar,
+recompilar, convertir, modificar, efectuar ingeniería inversa sobre el SOFTWARE o
+sus códigos, traducir el SOFTWARE, descifrar el código fuente desde la versión de
+código objeto del SOFTWARE, o de cualquier otra forma obtener el código fuente del
+SOFTWARE, total o parcialmente, o cualquier parte de la información contenida en el
+SOFTWARE.
+
+Prohibición de uso comercial
+Bajo la presente LICENCIA, el Usuario NO podrá dar al SOFTWARE un uso ni destino
+de carácter comercial. Por uso y destino comercial se entenderá, sin que implique
+limitación, la obtención de un lucro o beneficio económico directo como consecuencia
+de la venta, locación, sublicenciamiento, entrega o cesión del SOFTWARE en forma
+íntegra o parcial, de los archivos necesarios para la instalación y utilización del
+Software en su totalidad y/o de parte del mismo, o proveniente de cualquier otra forma
+de explotación no existente al presente o que en un futuro se implemente.
+
+Prohibición de distribución
+Bajo la presente Licencia el Usuario NO podrá distribuir el SOFTWARE. Por
+distribución se entenderá, sin que implique limitación, la realización de copias total o
+parcial, en soportes físicos, electrónicos para entregar a terceros, la distribución a través
+de medios electrónicos o redes sociales y/o bajo cualquier otra modalidad no existente
+al presente o que en un futuro se implemente.
+
+Incumplimiento de la Licencia
+En caso que el Usuario incumpliese con cualquiera de las condiciones de la LICENCIA,
+la misma se extinguirá automáticamente (lo que significa que todos los derechos
+concedidos al Usuario por medio de la LICENCIA quedarán sin efecto) sin necesidad
+de notificación alguna. En dicho caso, independientemente de las responsabilidades
+civiles y/o penales que le pudiesen corresponder, el Usuario estará obligado a cesar en
+forma inmediata el uso del SOFTWARE y proceder a desinstalar el mismo de todos
+los dispositivos electrónicos bajo su control en los cuales el SOFTWARE se encuentre
+instalado.
+
+Soporte técnico - Actualizaciones
+La LICENCIA no da derecho al Usuario a requerir soporte técnico ni actualizaciones
+del SOFTWARE ya sea en forma gratuita u onerosa.
+
+Vigencia de la licencia
+La vigencia de la LICENCIA es ilimitada en el tiempo. Sin embargo, el titular registral
+del SOFTWARE se reserva el derecho de modificar cualquiera de los términos de
+la LICENCIA en cualquier momento, en forma total o parcial, sin obligación de
+notificarlo. Dichas modificaciones comenzarán a regir, se aplicarán al SOFTWARE
+y serán obligatorias para el Usuario, desde su publicación por la CONAE en http:/
+/2mp.conae.gov.ar. En consecuencia, el Usuario asume la obligación de verificar
+periódicamente el texto vigente de la LICENCIA en la URL antes mencionada, a fin de
+determinar los derechos que le corresponden bajo la presente LICENCIA.
+
+Indemnidad
+La CONAE no otorga y el Usuario no recibe garantía expresa de buen funcionamiento
+del SOFTWARE durante toda la vigencia de la LICENCIA.
+La CONAE no asume ningún tipo de obligación de resultado respecto del
+SOFTWARE. Tampoco se responsabiliza por daños que pudiere padecer el Usuario con
+motivo de un uso inapropiado o negligente del SOFTWARE.
+
+Acciones legales
+La violación de cualquiera de las cláusulas de la LICENCIA así como la violación de
+los derechos del titular registral del SOFTWARE dará derecho a la CONAE a iniciar
+y proseguir contra el infractor todas las acciones civiles y/o penales que se encuentren
+disponibles y a obtener del infractor el correspondiente resarcimiento económico.
+
+Ley Aplicable:
+El alcance e interpretación de los términos de la LICENCIA se regirá por las leyes de la
+República Argentina.
+
+Jurisdicción:
+La CONAE y el Usuario acuerdan someterse a la competencia de los Tribunales
+Nacionales Federales con asiento en la Ciudad Autónoma de Buenos Aires, República
+Argentina, renunciando expresamente a cualquier otra jurisdicción que pudiera
+corresponder.
+
+Fecha de revisión: 13-12-2010 POR ASESORÍA JURIDICA

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_CONTEXTTOOLS">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Context Tools</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxChoicebook" name="ID_CONTEXTTOOL_CHOICE">
+                    <style>wxBK_LEFT|wxNO_BORDER</style>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

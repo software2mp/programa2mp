@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<!--APLICACION-->
+  <app_name>Software 2Mp</app_name>
+  <app_short_name>2mp</app_short_name>
+  <app_version>1.90.0-17193M</app_version>
+  <app_ejemplo>ejemplo</app_ejemplo>
+  <app_data_dir></app_data_dir>
+  <app_map_grid_dir>${app_data_dir}mapa/grilla/</app_map_grid_dir>
+  <app_help_dir>${app_data_dir}ayuda/</app_help_dir>
+  <app_base_dir_volatile></app_base_dir_volatile><!-- propiedad que se debe cargar al inicio con el directorio (absoluto) donde se encuentran el resto de los directorios -->
+  <app_needed_files>${app_data_dir}manifiesto</app_needed_files><!-- archivo con, linea por linea, los archivos necesarios para el funcionamiento -->
+  <app_hotlink_base_dir_volatile></app_hotlink_base_dir_volatile>
+  <app_vector_base_dir_volatile></app_vector_base_dir_volatile>
+  <app_temp_dir>/tmp/Programa2Mp.temp/temp/</app_temp_dir>
+  <app_hotlinks_dir>hotlinks/</app_hotlinks_dir>
+  <app_vector_dir>vector/</app_vector_dir>
+  <app_lang_dir>${app_data_dir}/locale/</app_lang_dir>
+  <app_language>es_AR</app_language>
+  <app_user_data></app_user_data>
+  <lib_supported_image_formats>WMS BMP GIF GTiff JPEG MEM PNG XPM</lib_supported_image_formats>
+  <geo_editing_style>VECTORSTYLE[3,\"Poligono azul\",PEN[\"Suri-pen\",1,COLOR[255,0,0,1],WIDTH[8]],BRUSH[\"Suri-brush\",1,COLOR[255,0,0,1]],SYMBOL[\"Suri-symbol\",0,COLOR[255,0,0,1],SIZE[1]],LABEL[\"Suri-label\",0,EXPRESSION[],COLOR[0,0,0,255],BACKCOLOR[0,0,0,0],SIZE[8],ITALIC[0],BOLD[0],UNDERLINED[0],ANGLE[0],OFFSET[0,0],ANCHOR[4]]]</geo_editing_style>
+  <geo_editing_style/>
+<!--PATS--> 
+  <pat_ejemplo>ejemplo</pat_ejemplo>
+  <pat_save_dir>${app_user_data}pats/usuario/</pat_save_dir>
+  <pat_install_dir>${app_user_data}pats/instalados/</pat_install_dir>
+  <pat_html_dir>${app_data_dir}pat/</pat_html_dir>
+  <pat_default_copyright/>
+  <pat_default_user>Usuario 2Mp</pat_default_user>
+  <pat_default_description>Archivo importado</pat_default_description>
+  <pat_common_dir>comun/</pat_common_dir>
+  <pat_image_dir>Imagen/</pat_image_dir>
+  
+
+<!--VIEWER2D--> 
+  <v2d_ejemplo>ejemplo</v2d_ejemplo>
+
+<!--VIEWER3D--> 
+  <v3d_ejemplo>ejemplo</v3d_ejemplo>
+  <v3d_factor_textura>1</v3d_factor_textura>
+  <v3d_factor_terreno>1</v3d_factor_terreno>
+  <v3d_velocidad_camara>1</v3d_velocidad_camara>
+  <v3d_exageracion>1</v3d_exageracion>
+  <v3d_performance>1</v3d_performance>
+  <v3d_performance_baja>1</v3d_performance_baja>
+  <v3d_performance_media>5</v3d_performance_media>
+  <v3d_performance_alta>50</v3d_performance_alta>
+
+<!--DOCUMENTOS--> 
+  <doc_ejemplo>1.0</doc_ejemplo>
+
+<!--FOTOGRAFIAS--> 
+  <photo_max_width>800</photo_max_width>
+  <photo_min_width>460</photo_min_width><!--Tiene que ser el mismo que el tablewidth del html template-->
+  <photo_margin>40</photo_margin><!--Tiene que ser el mismo 2*el cellpadding del html template-->
+  <photo_template>${app_data_dir}/fotografia/imagen.html</photo_template>
+<!--MULTIMEDIA -->
+   <multimedia_template>${app_data_dir}/multimedia/multimedia.html</multimedia_template>
+
+<!--ACTIVIDADES--> 
+  <act_ejemplo>1.0</act_ejemplo>
+  
+  <!--BIBLIOTECAS-->
+  <libraries-config>
+  	<libraries-definitions>
+  	  <library-definition name="srs">
+        <origins>
+          <origin name="Sistemas Proyectados" capabilities="1" level="1" source="type=gdal;itemtype=0"/>
+          <origin name="Sistemas Georreferenciados" capabilities="1" level="1" source="type=gdal;itemtype=1"/>
+          <origin name="Sistemas Proyectados" capabilities="3" level="2" source="name=srproj.lbr;type=textfile;path=./data;itemtype=0"/>
+          <origin name="Sistemas Georreferenciados" capabilities="3" level="2" source="name=srgeo.lbr;type=textfile;path=./data;itemtype=1"/>
+        </origins>
+      </library-definition>
+      <library-definition name="datum">
+        <origins>
+          <origin name="Datum" capabilities="1" level="1" source="type=gdal;itemtype=2"/>
+          <origin name="Datum" capabilities="3" level="2" source="name=datum.lbr;type=textfile;path=./data"/>
+        </origins>
+      </library-definition>
+      <library-definition name="ellipsoid">
+        <origins>
+          <origin name="Elipsoide" capabilities="1" level="1" source="type=gdal;itemtype=3"/>
+          <origin name="Elipsoide" capabilities="3" level="2" source="name=elipsoid.lbr;type=textfile;path=./data"/>
+        </origins>
+      </library-definition>
+      <library-definition name="densityslice">
+        <origins>
+          <origin name="Tabla de intervalos" capabilities="3" level="2" source="name=densityslice.lbr;type=textfile;path=./data"/>
+        </origins>
+      </library-definition>
+      <library-definition name="vectorstyles">
+        <origins>
+          <origin name="Estilos vectoriales" capabilities="1" level="1" source="name=vstylelibrary.lbr;type=textfile;path=./data"/>
+          <origin name="Estilos vectoriales" capabilities="3" level="2" source="name=vstylelibrary_user.lbr;type=textfile"/>
+        </origins>
+      </library-definition>
+	  <library-definition name="wms">
+        <origins>
+          <origin name="Capa wms" capabilities="1" level="1" source="name=wmslibrary.lbr;type=textfile;path=SYS_DATA/data"/>
+          <origin name="Capa wms" capabilities="3" level="2" source="name=wmslibrary_user.lbr;type=textfile;path=USR_DATA/data"/>
+        </origins>
+      </library-definition>
+    </libraries-definitions>
+  </libraries-config>
+
+</configuration>

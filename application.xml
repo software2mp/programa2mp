@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" xmlns:apkg="http://autopackage.org/xdgmime-extensions">
+  <mime-type type="application/pat">
+    <comment>Producto Autocontenido Temático</comment>
+    <comment xml:lang="en">Self Contained Tematic Product</comment>
+    <comment xml:lang="es">Producto Autocontenido Temático</comment>
+    <glob pattern="*.pat" />
+    <apkg:icon>pat.png</apkg:icon>
+    <icon name="pat.png"/>
+  </mime-type>
+</mime-info>

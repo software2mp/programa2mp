@@ -1,0 +1,2 @@
+aICON ICON "../lib/resources/bitmaps/icon-Application.ico"
+#include "wx/msw/wx.rc"

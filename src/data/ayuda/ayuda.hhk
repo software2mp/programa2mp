@@ -1,0 +1,48 @@
+<ul>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Acerca de...">
+           <param name="ID" value=0>
+           <param name="Local" value="about-Application.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Introduccion">
+           <param name="ID" value=0>
+           <param name="Local" value="inicio.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Contexto Imagenes">
+           <param name="ID" value=1>
+           <param name="Local" value="ContextoImagen.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Contexto Mapas">
+           <param name="ID" value=2>
+           <param name="Local" value="ContextoMapa.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Contexto Terrenos 3D">
+           <param name="ID" value=3>
+           <param name="Local" value="ContextoTerreno.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Contexto Documentos">
+           <param name="ID" value=4>
+           <param name="Local" value="ContextoDocumentos.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Contexto Fotografias">
+           <param name="ID" value=5>
+           <param name="Local" value="ContextoFotografias.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Contexto Actividades">
+           <param name="ID" value=6>
+           <param name="Local" value="ContextoActividades.html">
+       </object>
+  <li> <object type="text/sitemap">
+           <param name="Name" value="Administracion de PATs">
+           <param name="ID" value=7>
+           <param name="Local" value="GestionPats.html">
+       </object>
+</ul>
+

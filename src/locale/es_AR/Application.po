@@ -1,0 +1,2614 @@
+# ARCHIVO DE TRADUCCION DEL SOFTWARE DEL PROGRAMA 2Mp
+# Copyright (C) 2009 SUR Emprendimientos Tecnologicos
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 2MP 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-01 14:54-0300\n"
+"PO-Revision-Date: 2009-04-29 16:03-0300\n"
+"Last-Translator: SUR <contacto@suremptec.com.ar>\n"
+"Language-Team: SUR <contacto@suremptec.com.ar>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: LayerListWidget.cpp:47
+#, c-format
+msgid ""
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<table>\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t<td><img src=\"%s\"><!--GetIcon()--></td>\t\t\t\t\t\t\t\t\t\t\t\t\t<td>"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<table width=\"%dpx\"> "
+"<!-- GetMaxItemWidth() -->\t\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td>%s<!-- GetName() --></td>\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<table "
+"align= \"left\" width=\"%dpx\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"right\">\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t<font size=1>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t%s <!-- GetDetails() -->\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"checkbox\">\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"%s\"><!--IsActive()-->\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t</a>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t</table>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\t\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t</table>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t</td>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</table>"
+msgstr ""
+
+#: PatFile.cpp:37 PatFile.cpp:1393 PatFile.cpp:1912 PatFile.cpp:1916
+#: PatFile.cpp:1924
+msgid " "
+msgstr ""
+
+#: MainWindow.cpp:166
+msgid " - "
+msgstr ""
+
+#: PixelInfoTool.cpp:166
+#, c-format
+msgid " - (%.2f %s; %.2f %s)"
+msgstr ""
+
+#: PixelInfoTool.cpp:169
+#, c-format
+msgid " - (%d ; %d)"
+msgstr ""
+
+#: PatFile.cpp:704
+msgid " alt=\"Prevista PAT\"/>"
+msgstr ""
+
+#: PatFile.cpp:702
+msgid " height=\"230\""
+msgstr ""
+
+#: PhotoElement.cpp:147
+msgid " width=\""
+msgstr ""
+
+#: PatFile.cpp:700
+msgid " width=\"230\""
+msgstr ""
+
+#: PatFile.cpp:695 PhotoElement.cpp:132
+msgid "\""
+msgstr ""
+
+#: PhotoElement.cpp:147
+msgid "\" "
+msgstr ""
+
+#: PhotoElement.cpp:147
+msgid "\" height=\""
+msgstr ""
+
+#: PhotoElement.cpp:157
+msgid "\"/>"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:449
+msgid "\">"
+msgstr ""
+
+#: messages.h:139
+#, c-format
+msgid "%.2f %s%s"
+msgstr ""
+
+#: MapRenderer.cpp:602
+#, c-format
+msgid "%.2f Km"
+msgstr ""
+
+#: AnimationTool.cpp:235
+#, c-format
+msgid "%2d"
+msgstr ""
+
+#: PatInfoPart.cpp:743
+#, c-format
+msgid "%c"
+msgstr ""
+
+#: MapRenderer.cpp:58 MapRenderer.cpp:61 MapRenderer.cpp:64 MapRenderer.cpp:67
+#, c-format
+msgid "%d"
+msgstr ""
+
+#: MapRenderer.cpp:339 PatManagerWidget.cpp:826 PatManagerWidget.cpp:1328
+#, c-format
+msgid "%s"
+msgstr ""
+
+#: Context.cpp:203 Context.cpp:236
+#, c-format
+msgid "%s : (%d ; %d)"
+msgstr ""
+
+#: messages.h:161
+#, c-format
+msgid "%s no es un directorio valido."
+msgstr "%s no es un directorio válido."
+
+#: PatFile.cpp:2227
+#, c-format
+msgid "%s%d"
+msgstr ""
+
+#: messages.h:146
+msgid "&Desplegar"
+msgstr ""
+
+#: messages.h:147
+msgid "&Ocultar"
+msgstr ""
+
+#: messages.h:108
+#, c-format
+msgid "(%2d^g %2d' %2.2f\" %s ; %2d^g %2d' %2.2f\" %s)"
+msgstr "(%2dº %2d' %2.2f\" %s ; %2dº %2d' %2.2f\" %s)"
+
+#: PatFile.cpp:2201
+msgid "*"
+msgstr ""
+
+#: Application.cpp:134
+msgid "."
+msgstr ""
+
+#: MapRenderer.cpp:676
+msgid "..."
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:210 HotLinkPropertiesPart.cpp:225
+#: HotLinkPropertiesPart.cpp:243
+msgid ".html"
+msgstr ""
+
+#: messages.h:96
+msgid ".pat"
+msgstr ""
+
+#: Application.cpp:293 PatFile.cpp:38
+msgid "/"
+msgstr ""
+
+#: Application.cpp:79
+msgid "/.2mp.xml"
+msgstr ""
+
+#: Application.cpp:86
+msgid "/.local/share/2mp/configuracion.xml"
+msgstr ""
+
+#: PatFile.cpp:1393
+msgid "//"
+msgstr ""
+
+#: Application.cpp:290
+msgid "/share/${app_short_name}/"
+msgstr ""
+
+#: Application.cpp:291
+msgid "/tmp/${app_short_name}/"
+msgstr ""
+
+#: Application.cpp:85
+msgid "/usr/share/2mp/configuracion.xml"
+msgstr ""
+
+#: MapRenderer.cpp:128 MapRenderer.cpp:131 MapRenderer.cpp:134
+#: MapRenderer.cpp:137
+msgid "0"
+msgstr ""
+
+#: messages.h:113
+msgid "1 grado"
+msgstr "1º"
+
+#: Application.cpp:34
+msgid "1.0.1 build "
+msgstr ""
+
+#: messages.h:116
+msgid "10 grados"
+msgstr "10º"
+
+#: messages.h:114
+msgid "2 grados"
+msgstr "2º"
+
+#: messages.h:117
+msgid "20 grados"
+msgstr "20º"
+
+#: messages.h:33
+msgid "2Mp"
+msgstr ""
+
+#: messages.h:118
+msgid "30 grados"
+msgstr "30º"
+
+#: svn_version.h:5
+msgid "3706:3826M"
+msgstr ""
+
+#: messages.h:115
+msgid "5 grados"
+msgstr "5º"
+
+#: PatFile.cpp:42
+msgid "<!DOCTYPE pat SYSTEM \"pat.dtd\">"
+msgstr ""
+
+#: ViewerHtml.cpp:24 PatPropertiesHtmlViewerPart.cpp:19
+msgid ""
+"</font></h1></td></tr></td></tr></table></td></tr></table></td></tr></"
+"table></td></tr></table></body></html>"
+msgstr ""
+
+#: PatFile.cpp:1920
+msgid "<br>"
+msgstr ""
+
+#: PatFile.cpp:44
+#, c-format
+msgid ""
+"<h1><U>PAT</U>: <I>%s</I>\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"%s\" align="
+"\"middle\" border=\"0\"></h1>\t\t\t\t\t\t\t\t\t<ul>\t\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t<li>%s: %s<!--Autor--></li>\t\t\t\t\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t<li>%s: %s<!--Fecha--></li>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li>%"
+"s: %s<!--Copyright--></li>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>\t\t\t\t\t\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<h2><U>%s<!--Descripcion--></U>:</h2>\t\t\t"
+"\t\t\t\t\t\t\t\t\t\t\t<PRE>%s<!--FormatDescription(information, Width)--></"
+"PRE>"
+msgstr ""
+
+#: ViewerHtml.cpp:23
+msgid ""
+"<html><head><title></title></head><body bgcolor=\"rgb(150, 150, 150)\"><font "
+"face=\"Lucida Grande, Lucida Sans Unicode\"><table align=\"center"
+"\"><tr><td><table width=\"460\" bgcolor=\"rgb(255, 255, 255)\" cellspacing="
+"\"0\" cellpadding=\"0\"><tr><td><table bgcolor=\"rgb(114, 175, 224)\" width="
+"\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tr><td width=\"90%\" valign="
+"\"center\"><font size=\"5\" color=\"rgb(255, 255, 255)\"><em>Fotograf&iacute;"
+"a</em></font></td><td width=\"10%\" valign=\"center\" align=\"right\"></tr></"
+"table><table cellpadding=\"10\"><tr><td><table cellpadding=\"0"
+"\"><tr><td><tr><td colspan=\"2\" align=\"center\"><h1><font color=\"rgb(4, "
+"26, 204)\">"
+msgstr ""
+
+#: PatPropertiesHtmlViewerPart.cpp:18
+msgid ""
+"<html><head><title></title></head><body bgcolor=\"rgb(150, 150, 150)\"><font "
+"face=\"Lucida Grande, Lucida Sans Unicode\"><table align=\"center"
+"\"><tr><td><table width=\"460\" bgcolor=\"rgb(255, 255, 255)\" cellspacing="
+"\"0\" cellpadding=\"0\"><tr><td><table bgcolor=\"rgb(114, 175, 224)\" width="
+"\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tr><td width=\"90%\" valign="
+"\"center\"><font size=\"5\" color=\"rgb(255, 255, 255)\"><em>Producto "
+"Autocontenido Tem&aacute;tico</em></font></td><td width=\"10%\" valign="
+"\"center\" align=\"right\"></tr></table><table cellpadding=\"10"
+"\"><tr><td><table cellpadding=\"0\"><tr><td><tr><td colspan=\"2\" align="
+"\"center\"><h1><font color=\"rgb(4, 26, 204)\">"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:447 PatFile.cpp:693 PhotoElement.cpp:130
+msgid "<img src=\""
+msgstr ""
+
+#: PhotoElement.cpp:157
+msgid "<img src=\"Header_imagen.gif\" height=\"15\" width=\""
+msgstr ""
+
+#: PhotoElement.cpp:159
+msgid "<suri img src=\"Header_imagen.gif\"/>"
+msgstr ""
+
+#: PatFile.cpp:58
+msgid "<suri src=\"autor\"/>"
+msgstr ""
+
+#: PatFile.cpp:55
+msgid "<suri src=\"copyright\"/>"
+msgstr ""
+
+#: PhotoElement.cpp:127
+msgid "<suri src=\"copyright\">"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:452 PatFile.cpp:54 PhotoElement.cpp:126
+msgid "<suri src=\"descripcion\"/>"
+msgstr ""
+
+#: PatFile.cpp:56
+msgid "<suri src=\"fecha\"/>"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:451 PhotoElement.cpp:152
+msgid "<suri src=\"fotografia\" alt=\"Fotografia\"/>"
+msgstr ""
+
+#: PatFile.cpp:705
+msgid "<suri src=\"preview\" max-width=\"230\" alt=\"Prevista PAT\"/>"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:443 PatPropertiesHtmlViewerPart.cpp:21
+#: PatFile.cpp:57 PhotoElement.cpp:125
+msgid "<suri src=\"titulo\"/>"
+msgstr ""
+
+#: messages.h:65
+msgid "Actividades"
+msgstr ""
+
+#: messages.h:43
+msgid "Administracion de PATs"
+msgstr "Administración de PATs"
+
+#: messages.h:253
+msgid "Afuera de area valida"
+msgstr "Afuera de área válida"
+
+#: messages.h:183
+msgid "Agregando archivos"
+msgstr ""
+
+#: messages.h:81
+msgid "Ajustes de imagen"
+msgstr ""
+
+#: messages.h:82
+msgid "Animacion"
+msgstr "Animación"
+
+#: messages.h:93
+msgid "Anonimo"
+msgstr "Anónimo"
+
+#: messages.h:88
+msgid "Anotacion"
+msgstr "Anotación"
+
+#: Application.cpp:157
+msgid "Application"
+msgstr ""
+
+#: messages.h:226
+#, c-format
+msgid "Archivo %s del xml no se encuentra en el PAT."
+msgstr ""
+
+#: messages.h:218
+msgid "Archivo generado con exito."
+msgstr "Archivo generado con éxito."
+
+#: messages.h:177
+msgid "Archivo inexistente."
+msgstr ""
+
+#: messages.h:288
+msgid "Archivo ya existente. Desea reemplazarlo?"
+msgstr "Archivo ya existente. ¿Desea reemplazarlo?"
+
+#: messages.h:107
+msgid "Archivos PAT (*.pat)|*.pat;*.PAT"
+msgstr ""
+
+#: messages.h:136
+msgid "Area"
+msgstr "Área"
+
+#: messages.h:52
+#, c-format
+msgid "Ayuda: %s"
+msgstr ""
+
+#: Application.cpp:153
+msgid "C"
+msgstr ""
+
+#: messages.h:41
+msgid "Capas"
+msgstr ""
+
+#: messages.h:119
+msgid "Capas de mapa"
+msgstr ""
+
+#: messages.h:83
+msgid "Creacion de mapas"
+msgstr "Creación de mapas"
+
+#: messages.h:23
+msgid "Crear anotacion"
+msgstr "Crear anotación"
+
+#: PatFile.cpp:309
+#, c-format
+msgid "D: * %s"
+msgstr ""
+
+#: PatFile.cpp:305
+msgid "D: Dependencias que fallaron:"
+msgstr ""
+
+#: PatManagerWidget.cpp:1279
+msgid "D: No se pudo crear directorio temporal para hotlink."
+msgstr ""
+
+#: PatManagerWidget.cpp:1262
+msgid "D: No se pudo crear directorio temporal para vector."
+msgstr ""
+
+#: MainWindow.cpp:201 MainWindow.cpp:244
+msgid "D: No se puede agregar contexto sin nombre"
+msgstr ""
+
+#: PatManagerWidget.cpp:749
+#, c-format
+msgid "D:%s ; %s"
+msgstr ""
+
+#: ViewerHtml.cpp:222
+#, c-format
+msgid "D:%s no es un directorio valido"
+msgstr ""
+
+#: PatPropertiesHtmlViewerPart.cpp:116
+#, c-format
+msgid "D:%s no es un directorio valido."
+msgstr ""
+
+#: ZipFile.cpp:482
+#, c-format
+msgid ""
+"D:%s.\n"
+"Error LastError: %s"
+msgstr ""
+
+#: MainWindow.cpp:203
+#, c-format
+msgid "D:Agregando contexto %s"
+msgstr ""
+
+#: Context.cpp:155
+#, c-format
+msgid "D:Agregando herramienta %s"
+msgstr ""
+
+#: ZipFile.cpp:290
+msgid "D:Archivo y Path vacio."
+msgstr ""
+
+#: PatManagerWidget.cpp:788
+msgid "D:Archivo ya abierto"
+msgstr ""
+
+#: ZipFile.cpp:313
+msgid "D:Archivos y Path vacio."
+msgstr ""
+
+#: BrightnessTool.cpp:159
+msgid "D:BC Changed!"
+msgstr ""
+
+#: ZipFile.cpp:349
+msgid "D:Cantidad de path menor a la cantidad de archivos."
+msgstr ""
+
+#: MainWindow.cpp:221
+#, c-format
+msgid "D:Contexto %s agregado con exito"
+msgstr ""
+
+#: MainWindow.cpp:224
+#, c-format
+msgid "D:Contexto %s no fue agregado"
+msgstr ""
+
+#: PatFile.cpp:468
+msgid "D:Contexto sin nombre"
+msgstr ""
+
+#: PatFile.cpp:492
+msgid "D:Contexto ya ingresado."
+msgstr ""
+
+#: MapRenderer.cpp:191
+msgid "D:DC nulo, abortando renderizacion de mapa"
+msgstr ""
+
+#: MainWindow.cpp:673
+#, c-format
+msgid "D:Derritiendo contexto %s"
+msgstr ""
+
+#: MainWindow.cpp:300 MainWindow.cpp:337 MainWindow.cpp:502
+msgid "D:ERROR al obtener xml"
+msgstr ""
+
+#: PatFile.cpp:142
+#, c-format
+msgid "D:El PAT: %s, no es un PAT comprimido."
+msgstr ""
+
+#: PatFile.cpp:2086
+#, c-format
+msgid "D:El destino y origen son el mismo: %s"
+msgstr ""
+
+#: AnimationTool.cpp:620
+#, c-format
+msgid ""
+"D:El elemento %d del grupo %d tiene referencia espacial : \n"
+"\t\t\t%s\n"
+"Se esperaba: \n"
+"\t\t\t\\%s"
+msgstr ""
+
+#: Application.cpp:187
+msgid "D:El sistema no maneja excepciones fatales"
+msgstr ""
+
+#: LayerListWidget.cpp:336
+msgid "D:Elemento invalido"
+msgstr ""
+
+#: PatFile.cpp:2180
+#, c-format
+msgid "D:Eliminando %s"
+msgstr ""
+
+#: HtmlElement.cpp:119
+msgid "D:Error al abrir archivo."
+msgstr ""
+
+#: PatInfoPart.cpp:886
+msgid "D:Error al agregar contextos: lista de contextos vacia."
+msgstr ""
+
+#: PatInfoPart.cpp:884
+msgid "D:Error al agregar contextos: nodo PAT vacio."
+msgstr ""
+
+#: DrawPolygonButton.cpp:166 DrawLineButton.cpp:148
+msgid "D:Error al agregar punto"
+msgstr ""
+
+#: PatFile.cpp:226 PatFile.cpp:458 PatFile.cpp:729 PatFile.cpp:893
+#: PatFile.cpp:939 PatFile.cpp:1990
+msgid "D:Error al cargar archivo xml."
+msgstr ""
+
+#: PatManagerWidget.cpp:906
+msgid "D:Error al cargar el PAT."
+msgstr ""
+
+#: ZipFile.cpp:371
+#, c-format
+msgid "D:Error al cerrar Zip: %s"
+msgstr ""
+
+#: PatFile.cpp:790
+#, c-format
+msgid "D:Error al cerrar archivo : %s."
+msgstr ""
+
+#: HtmlElement.cpp:133
+msgid "D:Error al cerrar archivo."
+msgstr ""
+
+#: ZipFile.cpp:415
+msgid "D:Error al cerrar zip de salida"
+msgstr ""
+
+#: ZipFile.cpp:420
+msgid "D:Error al comitear zip"
+msgstr ""
+
+#: PatManagerWidget.cpp:846 PatManagerWidget.cpp:896
+msgid "D:Error al convertir URL a absoluto."
+msgstr ""
+
+#: HotLinkVectorElement.cpp:451
+msgid "D:Error al copiar vector a directorio temporal."
+msgstr ""
+
+#: MainWindow.cpp:290
+msgid "D:Error al crear PatFile"
+msgstr ""
+
+#: PatInfoPart.cpp:700
+msgid "D:Error al crear archivo descripcion.xml: no se pudo agregar contextos."
+msgstr ""
+
+#: PatInfoPart.cpp:329 PatInfoPart.cpp:691
+msgid "D:Error al crear archivo descripcion.xml: no se pudo crear raiz."
+msgstr ""
+
+#: PatPropertiesHtmlViewerPart.cpp:120 PatInfoPart.cpp:460 PatInfoPart.cpp:463
+#: PatFile.cpp:772 PatFile.cpp:2092 PatFile.cpp:2109 PatManagerWidget.cpp:1036
+#: PatManagerWidget.cpp:1039 PatManagerWidget.cpp:1047
+#: PatManagerWidget.cpp:1050
+#, c-format
+msgid "D:Error al crear directorio %s."
+msgstr ""
+
+#: ZipFile.cpp:233
+msgid "D:Error al crear directorio de salida."
+msgstr ""
+
+#: AnotationElement.cpp:80
+msgid "D:Error al crear el vector"
+msgstr ""
+
+#: ZipFile.cpp:188 ZipFile.cpp:388
+msgid "D:Error al crear stream de entrada"
+msgstr ""
+
+#: ZipFile.cpp:392
+msgid "D:Error al crear stream temporal"
+msgstr ""
+
+#: PatFile.cpp:168
+msgid "D:Error al descomprimir archivo descripcion.xml"
+msgstr ""
+
+#: PatManagerWidget.cpp:1225
+msgid "D:Error al descomprimir archivo descripcion.xml."
+msgstr ""
+
+#: PatFile.cpp:786 PatFile.cpp:1083
+#, c-format
+msgid "D:Error al escribir archivo: %s."
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:192
+msgid "D:Error al grabar cambios. Elemento no es de tipo Vector"
+msgstr ""
+
+#: PatFile.cpp:188
+msgid "D:Error al instalar PAT"
+msgstr ""
+
+#: PatFile.cpp:2098
+#, c-format
+msgid "D:Error al intentar abrir directorio: %s"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:401 AnotationElement.cpp:295
+msgid "D:Error al intentar acceder a la capa vectorial"
+msgstr ""
+
+#: PatManagerWidget.cpp:1008
+msgid "D:Error al intentar agregar PatInfo."
+msgstr ""
+
+#: PatManagerWidget.cpp:973
+msgid "D:Error al intentar agregar PatProperties."
+msgstr ""
+
+#: MainWindow.cpp:552
+msgid "D:Error al intentar cerrar elementos."
+msgstr ""
+
+#: PatInfoPart.cpp:39
+msgid "D:Error al intentar copiar HotLinks"
+msgstr ""
+
+#: PatFile.cpp:2076 PatFile.cpp:2080 PatFile.cpp:2122
+#, c-format
+msgid "D:Error al intentar copiar: %s"
+msgstr ""
+
+#: PatInfoPart.cpp:840
+msgid ""
+"D:Error al intentar crear PAT. Ya existe un PAT propietario con el mismo "
+"nombre"
+msgstr ""
+
+#: PatFile.cpp:157
+msgid "D:Error al intentar crear directorio de instalacion de PATs"
+msgstr ""
+
+#: ViewerHtml.cpp:227
+msgid "D:Error al intentar crear directorio de templates"
+msgstr ""
+
+#: PatManagerWidget.cpp:988
+msgid "D:Error al intentar eliminar Part."
+msgstr ""
+
+#: PatFile.cpp:402 PatFile.cpp:421 PatFile.cpp:437 PatFile.cpp:2167
+#: PatManagerWidget.cpp:517
+#, c-format
+msgid ""
+"D:Error al intentar eliminar archivo: %s. Verifique que exista y que no este "
+"siendo usado."
+msgstr ""
+
+#: MainWindow.cpp:559 MainWindow.cpp:581
+msgid "D:Error al intentar eliminar directorio temporal."
+msgstr ""
+
+#: PatFile.cpp:2175
+#, c-format
+msgid ""
+"D:Error al intentar eliminar directorio: %s. Verifique que exista y que no "
+"este siendo usado."
+msgstr ""
+
+#: PatManagerWidget.cpp:954
+msgid "D:Error al intentar eliminar la informacion de PAT."
+msgstr ""
+
+#: PatFile.cpp:783
+#, c-format
+msgid "D:Error al intentar grabar archivo: %s."
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:319
+msgid "D:Error al intentar guardar texto de la anotacion."
+msgstr ""
+
+#: PatManagerWidget.cpp:801
+msgid "D:Error al intentar obtener descripcion."
+msgstr ""
+
+#: PatFile.cpp:194
+msgid "D:Error al modificar hotlinks."
+msgstr ""
+
+#: AnotationElement.cpp:90
+msgid "D:Error al obtener capa. No se pudo crear anotacion"
+msgstr ""
+
+#: PatFile.cpp:944
+msgid "D:Error al obtener nodo raiz"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:418
+msgid "D:Error al setear nodo caracteristicas."
+msgstr ""
+
+#: PatManagerWidget.cpp:1073 PatManagerWidget.cpp:1082
+msgid "D:Error buscando PATs instalados."
+msgstr ""
+
+#: Application.cpp:230 Application.cpp:262
+msgid "D:Error desconocido; Terminando la aplicacion"
+msgstr ""
+
+#: ZipFile.cpp:367 ZipFile.cpp:411
+#, c-format
+msgid "D:Error en AddFileToZip: %s"
+msgstr ""
+
+#: ZipFile.cpp:246 ZipFile.cpp:361
+#, c-format
+msgid "D:Error en apertura del Zip: %s"
+msgstr ""
+
+#: ZipFile.cpp:271
+msgid "D:Error en la extraccion de los archivos"
+msgstr ""
+
+#: ElementPropertiesWidget.cpp:66
+msgid "D:Error insertando Part."
+msgstr ""
+
+#: MapTool.cpp:302
+msgid "D:Evento"
+msgstr ""
+
+#: PatInfoPart.cpp:181
+msgid "D:Falla CheckPatName."
+msgstr ""
+
+#: PatInfoPart.cpp:371
+msgid "D:Falla InsertChildAfter"
+msgstr ""
+
+#: PatManagerWidget.cpp:1220
+msgid "D:Falla creacion del archivo temporal."
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:462
+msgid "D:Falla escritura de html"
+msgstr ""
+
+#: ViewerHtml.cpp:220
+msgid "D:Falla normalizacion"
+msgstr ""
+
+#: Application.cpp:115
+#, c-format
+msgid "D:Falta: %s"
+msgstr ""
+
+#: MainWindow.cpp:661
+#, c-format
+msgid "D:Frizando contexto %s"
+msgstr ""
+
+#: Context.cpp:230
+#, c-format
+msgid "D:Herramienta %s agregada con exito"
+msgstr ""
+
+#: Context.cpp:144
+msgid "D:Herramienta invalida."
+msgstr ""
+
+#: Context.cpp:446
+#, c-format
+msgid "D:Herramienta seleccionada %s(%d)"
+msgstr ""
+
+#: PatFile.cpp:175
+msgid "D:Inconsistencia entre archivos dentro del PAT y descripcion.xml."
+msgstr ""
+
+#: MapTool.cpp:102 MeassureTool.cpp:84 DrawTool.cpp:79
+msgid "D:La ventana no tiene sizer"
+msgstr ""
+
+#: ZipFile.cpp:445
+msgid "D:Lista de archivos vacia."
+msgstr ""
+
+#: ZipFile.cpp:448
+msgid "D:Lista de archivos y path con distinta cantidad de elementos."
+msgstr ""
+
+#: LayerListWidget.cpp:320
+msgid "D:Lista de elementos invalida."
+msgstr ""
+
+#: AnimationTool.cpp:161 MapTool.cpp:165
+msgid "D:Lista no inicializada."
+msgstr ""
+
+#: PatManagerWidget.cpp:952
+msgid "D:Mostrando HTML"
+msgstr ""
+
+#: PatManagerWidget.cpp:986
+msgid "D:Mostrando Info"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:397
+msgid "D:No existe el archivo que se intenta setear al vector."
+msgstr ""
+
+#: PatFile.cpp:1224 PatFile.cpp:1244 PatFile.cpp:1957
+#, c-format
+msgid "D:No existe el archivo: %s"
+msgstr ""
+
+#: PatFile.cpp:1133
+msgid "D:No existe propiedad <nombre> en nodo <contexto>"
+msgstr ""
+
+#: ZipFile.cpp:343
+msgid "D:No hay archivos para agregar."
+msgstr ""
+
+#: ZipFile.cpp:182
+msgid "D:No hay archivos para extraer."
+msgstr ""
+
+#: MapRenderer.cpp:268
+msgid "D:No hay leyendas para dibujar."
+msgstr ""
+
+#: MapTool.cpp:92 MeassureTool.cpp:81 DrawTool.cpp:67
+msgid "D:No hay viewer, lista o ventana inicializado"
+msgstr ""
+
+#: ZipFile.cpp:381
+msgid "D:No se agregaron archivos al Zip. Causa: ya existian."
+msgstr ""
+
+#: LayerListWidget.cpp:459
+msgid "D:No se encontraron items \"Desplegar\" u \"Ocultar\" en el menu"
+msgstr ""
+
+#: AnotationElement.cpp:227
+msgid "D:No se encuentra el nodo etiqueta"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:318
+msgid "D:No se encuentra el nodo hotlink"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:312 AnotationElement.cpp:222
+#, c-format
+msgid "D:No se encuentra la capa: %d"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:204
+msgid "D:No se encuentra nodo caracteristicas"
+msgstr ""
+
+#: ParseSuriTemplates.cpp:59
+#, c-format
+msgid "D:No se encuentra tag: %s"
+msgstr ""
+
+#: PatFile.cpp:2159
+msgid "D:No se enumero el directorio"
+msgstr ""
+
+#: MeassureTool.cpp:188
+msgid "D:No se inicializo correctamente algun boton de medicion"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:116 HotLinkPropertiesPart.cpp:144
+msgid "D:No se pudieron obtener valores del nodo caracteristicas"
+msgstr ""
+
+#: Context.cpp:232
+#, c-format
+msgid "D:No se pudo agregar la herramienta %s"
+msgstr ""
+
+#: PatFile.cpp:778
+msgid "D:No se pudo agregar linea de DocType."
+msgstr ""
+
+#: PatManagerWidget.cpp:768
+#, c-format
+msgid "D:No se pudo cargar el dato %s"
+msgstr ""
+
+#: DrawPointButton.cpp:111
+msgid "D:No se pudo configurar el vector"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:306
+msgid "D:No se pudo copiar vector a directorio temporal"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:250
+msgid "D:No se pudo crear directorio para HotLink en el directorio temporal."
+msgstr ""
+
+#: PatFile.cpp:2236
+#, c-format
+msgid "D:No se pudo crear el directorio: %s"
+msgstr ""
+
+#: AnotationElement.cpp:120
+msgid "D:No se pudo crear el punto de anotacion"
+msgstr ""
+
+#: PatFile.cpp:480
+#, c-format
+msgid "D:No se pudo eliminar el Nodo: %s"
+msgstr ""
+
+#: MainWindow.cpp:384
+msgid "D:No se pudo eliminar el nodo"
+msgstr ""
+
+#: DrawPolygonButton.cpp:81
+msgid "D:No se pudo escribir el poligono"
+msgstr ""
+
+#: DrawPointButton.cpp:144 DrawPolygonButton.cpp:159 DrawLineButton.cpp:141
+msgid "D:No se pudo escribir el punto"
+msgstr ""
+
+#: AnotationElement.cpp:125
+msgid "D:No se pudo escribir la anotacion"
+msgstr ""
+
+#: DrawLineButton.cpp:77
+msgid "D:No se pudo escribir la polilinea"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:457
+msgid "D:No se pudo generar html"
+msgstr ""
+
+#: PatManagerWidget.cpp:761
+#, c-format
+msgid "D:No se pudo insertar %s."
+msgstr ""
+
+#: PatManagerWidget.cpp:967 PatManagerWidget.cpp:995
+#, c-format
+msgid "D:No se pudo obtener el control %s"
+msgstr ""
+
+#: PatInfoPart.cpp:354
+msgid "D:No se pudo obtener nodo informacion."
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:436
+msgid "D:No se pudo obtener template"
+msgstr ""
+
+#: MainWindow.cpp:482
+msgid "D:No se pudo resetear el directorio temporal."
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:273
+#, c-format
+msgid "D:No se pudo salvar imagen: %s"
+msgstr ""
+
+#: PatManagerWidget.cpp:1229 PatManagerWidget.cpp:1233
+#, c-format
+msgid "D:No se pudo verificar la creacion del PAT. Motivo: %s"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:252
+msgid "D:Nodo caracteristicas vacio"
+msgstr ""
+
+#: ZipFile.cpp:454
+msgid "D:Nombre de archivo invalido."
+msgstr ""
+
+#: PatManagerWidget.cpp:748
+msgid "D:Nombre de directorio diferente a nodo informacion|nombre."
+msgstr ""
+
+#: PatManagerWidget.cpp:300
+msgid "D:Nuevo PAT"
+msgstr ""
+
+#: MainWindow.cpp:651
+#, c-format
+msgid "D:Paso de contexto %d -> %d"
+msgstr ""
+
+#: AnimationTool.cpp:274
+msgid "D:Reiniciando el timer"
+msgstr ""
+
+#: MainWindow.cpp:370
+msgid "D:Salida por pXmlProperties_ == NULL"
+msgstr ""
+
+#: AnimationTool.cpp:247
+msgid "D:Saltea timer"
+msgstr ""
+
+#: PatManagerWidget.cpp:508
+msgid ""
+"D:Se esta generando un PAT comprimido utilizando la version DEBUG del "
+"software. El PAT puede no ser compatible con los generados por otras "
+"versiones del software"
+msgstr ""
+
+#: PatFile.cpp:955 PatFile.cpp:1164
+msgid "D:Sin propiedad <tipo>."
+msgstr ""
+
+#: AnimationTool.cpp:250
+msgid "D:Timer"
+msgstr ""
+
+#: Context.cpp:169
+msgid "D:Toolbook invalido"
+msgstr ""
+
+#: PatInfoPart.cpp:862
+msgid "D:Ya existe un PAT de usuario con ese nombre."
+msgstr ""
+
+#: Application.cpp:171
+#, c-format
+msgid "D:locale LC_ALL: %s"
+msgstr ""
+
+#: Application.cpp:172
+#, c-format
+msgid "D:locale LC_COLLATE: %s"
+msgstr ""
+
+#: Application.cpp:173
+#, c-format
+msgid "D:locale LC_CTYPE: %s"
+msgstr ""
+
+#: Application.cpp:175
+#, c-format
+msgid "D:locale LC_MESSAGES: %s"
+msgstr ""
+
+#: Application.cpp:177
+#, c-format
+msgid "D:locale LC_MONETARY: %s"
+msgstr ""
+
+#: Application.cpp:178
+#, c-format
+msgid "D:locale LC_NUMERIC: %s"
+msgstr ""
+
+#: Application.cpp:179
+#, c-format
+msgid "D:locale LC_TIME: %s"
+msgstr ""
+
+#: PatFile.cpp:1109
+msgid "DESCRIPCION.XML"
+msgstr ""
+
+#: messages.h:271
+#, c-format
+msgid "Debe haber al menos %s desplegada."
+msgstr ""
+
+#: messages.h:213
+msgid "Debe ingresar un nombre para el PAT."
+msgstr ""
+
+#: messages.h:262
+msgid "Debe seleccionar una textura para el terreno."
+msgstr ""
+
+#: messages.h:228
+msgid "Dependencia de archivos insatisfecha en el PAT."
+msgstr ""
+
+#: messages.h:80
+msgid "Desconocida"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:151
+msgid "Descripcion"
+msgstr ""
+
+#: messages.h:46
+msgid "Descripcion de PAT"
+msgstr "Descripción de PAT"
+
+#: messages.h:26
+msgid "Dibujar linea"
+msgstr "Dibujar línea"
+
+#: messages.h:27
+msgid "Dibujar poligono"
+msgstr "Dibujar polígono"
+
+#: messages.h:25
+msgid "Dibujar punto"
+msgstr ""
+
+#: messages.h:135
+msgid "Distancia"
+msgstr ""
+
+#: messages.h:63
+msgid "Documentos"
+msgstr ""
+
+#: messages.h:123
+msgid "E"
+msgstr ""
+
+#: messages.h:243
+#, c-format
+msgid "El PAT: %s no es un archivo PAT comprimido."
+msgstr ""
+
+#: messages.h:170
+#, c-format
+msgid ""
+"El elemento %s no es de un tipo valido o ya existe con ese nombre de archivo "
+"en el contexto %s."
+msgstr ""
+"El elemento %s no es de un tipo válido o ya existe con ese nombre de archivo "
+"en el contexto %s."
+
+#: messages.h:186
+msgid ""
+"El idioma no es soportado por el sistema: se usaran traducciones disponibles."
+msgstr ""
+"El idioma no es soportado por el sistema: se usarán traducciones disponibles."
+
+#: PatFile.h:33 PatFile.cpp:1174
+msgid "Elem_"
+msgstr ""
+
+#: messages.h:229
+msgid "Error agregando archivos al PAT."
+msgstr ""
+
+#: messages.h:281
+msgid "Error al cargar archivo xml."
+msgstr ""
+
+#: messages.h:220
+msgid "Error al cargar el PAT."
+msgstr ""
+
+#: messages.h:236
+msgid "Error al descomprimir archivo descripcion.xml."
+msgstr ""
+
+#: messages.h:162
+#, c-format
+msgid "Error al eliminar directorio: %s."
+msgstr ""
+
+#: messages.h:256
+msgid "Error al ingresar punto."
+msgstr ""
+
+#: messages.h:223
+msgid "Error al instalar PAT."
+msgstr ""
+
+#: messages.h:224
+#, c-format
+msgid "Error al instalar PAT. Motivo: %s."
+msgstr ""
+
+#: messages.h:159
+#, c-format
+msgid "Error al intentar abrir directorio: %s."
+msgstr ""
+
+#: messages.h:171
+msgid "Error al intentar cerrar elementos."
+msgstr ""
+
+#: messages.h:230
+msgid "Error al intentar crear PAT."
+msgstr ""
+
+#: messages.h:231
+msgid "Error al intentar crear PAT. Tipo de PAT invalido."
+msgstr "Error al intentar crear PAT. Tipo de PAT inválido."
+
+#: messages.h:225
+msgid ""
+"Error al intentar crear PAT: ya existe un PAT propietario con el mismo "
+"nombre."
+msgstr ""
+
+#: messages.h:233
+msgid "Error al intentar crear directorio de instalacion de PATs."
+msgstr "Error al intentar crear directorio de instalación de PATs."
+
+#: messages.h:222
+#, c-format
+msgid "Error al intentar desinstalar PAT: %s."
+msgstr ""
+
+#: messages.h:176
+#, c-format
+msgid ""
+"Error al intentar eliminar archivo: %s. Verifique que exista y que no este "
+"siendo usado."
+msgstr ""
+
+#: messages.h:207
+msgid "Error al modificar hipervinculos."
+msgstr "Error al modificar hipervínculos."
+
+#: ZipFile.cpp:490
+msgid "Error de escritura en archivo: "
+msgstr ""
+
+#: ZipFile.cpp:268
+msgid "Error en la extraccion de los archivos"
+msgstr ""
+
+#: messages.h:252
+msgid "Espacio en disco insuficiente"
+msgstr ""
+
+#: messages.h:285
+msgid "Esta seguro que desea eliminar el PAT seleccionado?"
+msgstr "¿Está seguro que desea eliminar el PAT seleccionado?"
+
+#: messages.h:184
+msgid "Extrayendo archivos"
+msgstr ""
+
+#: messages.h:180
+msgid "Falla creacion del archivo temporal."
+msgstr "Falla creación del archivo temporal."
+
+#: messages.h:238
+msgid "Fallo extraccion del archivo de vista previa."
+msgstr "Falló extracción del archivo de vista previa."
+
+#: messages.h:91 messages.h:92
+msgid "Fecha invalida"
+msgstr "Fecha inválida"
+
+#: PhotoElement.cpp:95 PhotoElement.cpp:216
+msgid "Foto"
+msgstr ""
+
+#: messages.h:64
+msgid "Fotografias"
+msgstr "Fotografías"
+
+#: MainWindow.cpp:716
+msgid "GDAL_SKIP"
+msgstr ""
+
+#: MeassureDistanceButton.cpp:19
+msgid ""
+"GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984"
+"\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree"
+"\",0.017453292519943295]]"
+msgstr ""
+
+#: messages.h:85
+msgid "Graficos y anotaciones"
+msgstr "Gráficos y anotaciones"
+
+#: messages.h:111
+msgid "Grilla de mapa"
+msgstr ""
+
+#: messages.h:45
+msgid "Guardar PAT"
+msgstr ""
+
+#: HtmlElement.cpp:83
+msgid "HTM"
+msgstr ""
+
+#: HtmlElement.cpp:82 HtmlElement.cpp:105
+msgid "HTML"
+msgstr ""
+
+#: messages.h:267
+msgid "Hay al menos un elemento activo afuera del grupo de animacion."
+msgstr "Hay al menos un elemento activo afuera del grupo de animación."
+
+#: messages.h:286
+msgid "Hay cambios sin guardar. Desea guardarlos?"
+msgstr "Hay cambios sin guardar. ¿Desea guardarlos?"
+
+#: messages.h:47
+msgid "Herramientas de PAT"
+msgstr ""
+
+#: BrightnessTool.cpp:69
+msgid "ID_ADJUST_TOOL"
+msgstr ""
+
+#: AnimationTool.cpp:104
+msgid "ID_ANIMATION_TOOL"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:82
+msgid "ID_BMPBTN_IMG"
+msgstr ""
+
+#: PatInfoPart.cpp:116
+msgid "ID_BMPBTN_OPENPREVIEW"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:123 AnotationPropertiesPart.cpp:363
+#: AnotationPropertiesPart.cpp:378
+msgid "ID_BMP_PREVIEW"
+msgstr ""
+
+#: BrightnessTool.cpp:134 BrightnessTool.cpp:160
+msgid "ID_BRIGHTNESS_SLIDER"
+msgstr ""
+
+#: MainToolbar.cpp:94
+msgid "ID_BUTTON_CONFIG"
+msgstr ""
+
+#: MainToolbar.cpp:82
+msgid "ID_BUTTON_DELETE"
+msgstr ""
+
+#: MainToolbar.cpp:78
+msgid "ID_BUTTON_INSERT"
+msgstr ""
+
+#: MainToolbar.cpp:70
+msgid "ID_BUTTON_NEW"
+msgstr ""
+
+#: MainToolbar.cpp:74
+msgid "ID_BUTTON_OPEN"
+msgstr ""
+
+#: PatManagerWidget.cpp:964 PatManagerWidget.cpp:967 PatManagerWidget.cpp:993
+#: PatManagerWidget.cpp:995
+msgid "ID_BUTTON_PANEL"
+msgstr ""
+
+#: MainToolbar.cpp:86 MainToolbar.cpp:90 MainToolbar.cpp:216
+#: MainToolbar.cpp:218
+msgid "ID_BUTTON_SAVE"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:50 AnotationPropertiesPart.cpp:174
+#: AnotationPropertiesPart.cpp:204
+msgid "ID_CHK_BACKGROUND"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:42 AnotationPropertiesPart.cpp:168
+#: AnotationPropertiesPart.cpp:192
+msgid "ID_CHK_BOLD"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:44 AnotationPropertiesPart.cpp:169
+#: AnotationPropertiesPart.cpp:194
+msgid "ID_CHK_ITALIC"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:46 AnotationPropertiesPart.cpp:170
+#: AnotationPropertiesPart.cpp:196
+msgid "ID_CHK_UNDERLINE"
+msgstr ""
+
+#: MeassureTool.cpp:76 MeassureTool.cpp:191 MeassureTool.cpp:198
+#: MeassureTool.cpp:219
+msgid "ID_CHOICE_AREA_UNIT"
+msgstr ""
+
+#: MeassureTool.cpp:72 MeassureTool.cpp:189 MeassureTool.cpp:195
+#: MeassureTool.cpp:213
+msgid "ID_CHOICE_DISTANCE_UNIT"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:38 AnotationPropertiesPart.cpp:164
+#: AnotationPropertiesPart.cpp:187 AnotationPropertiesPart.cpp:430
+msgid "ID_CHOICE_FONT_TYPE"
+msgstr ""
+
+#: MapTool.cpp:96 MapTool.cpp:220 MapTool.cpp:221 MapTool.cpp:338
+msgid "ID_CMB_GRID"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:52 AnotationPropertiesPart.cpp:175
+#: AnotationPropertiesPart.cpp:177 AnotationPropertiesPart.cpp:207
+#: AnotationPropertiesPart.cpp:209
+msgid "ID_COLOUR_BACKGROUND"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:48 AnotationPropertiesPart.cpp:171
+#: AnotationPropertiesPart.cpp:201
+msgid "ID_COLOUR_FONT"
+msgstr ""
+
+#: PatManagerWidget.cpp:193 PatManagerWidget.cpp:197 PatManagerWidget.cpp:653
+#: PatManagerWidget.cpp:941
+msgid "ID_COMPRESS_PAT"
+msgstr ""
+
+#: Context2D.cpp:104 Context.cpp:107
+msgid "ID_CONATINERLEFT"
+msgstr ""
+
+#: Context.cpp:258
+msgid "ID_CONATINERMID"
+msgstr ""
+
+#: Context2D.cpp:108 Context2D.cpp:113 Context.cpp:178
+msgid "ID_CONATINERRIGHT"
+msgstr ""
+
+#: PatManagerWidget.cpp:677 PatManagerWidget.cpp:697
+msgid "ID_CONTAINER_WIN"
+msgstr ""
+
+#: Context.cpp:110
+msgid "ID_CONTEXTHELPBUTTON"
+msgstr ""
+
+#: Context.cpp:165
+msgid "ID_CONTEXTTOOLS"
+msgstr ""
+
+#: Context.cpp:147 Context.cpp:167
+msgid "ID_CONTEXTTOOL_CHOICE"
+msgstr ""
+
+#: BrightnessTool.cpp:135 BrightnessTool.cpp:161
+msgid "ID_CONTRAST_SLIDER"
+msgstr ""
+
+#: PatManagerWidget.cpp:185 PatManagerWidget.cpp:189 PatManagerWidget.cpp:654
+#: PatManagerWidget.cpp:940
+msgid "ID_DELETE_PAT"
+msgstr ""
+
+#: PatManagerWidget.cpp:145
+msgid "ID_DLGOPENPAT"
+msgstr ""
+
+#: PatManagerWidget.cpp:169 PatManagerWidget.cpp:173 PatManagerWidget.cpp:651
+#: PatManagerWidget.cpp:937
+msgid "ID_EDIT_PAT"
+msgstr ""
+
+#: LayerListWidget.cpp:559
+msgid "ID_ELEMENT_CLOSE"
+msgstr ""
+
+#: LayerListWidget.cpp:561
+msgid "ID_ELEMENT_DISPLAY"
+msgstr ""
+
+#: LayerListWidget.cpp:562
+msgid "ID_ELEMENT_HIDE"
+msgstr ""
+
+#: LayerListWidget.cpp:292 LayerListWidget.cpp:449
+msgid "ID_ELEMENT_MENU"
+msgstr ""
+
+#: LayerListWidget.cpp:557
+msgid "ID_ELEMENT_PROPERTIES"
+msgstr ""
+
+#: AnimationTool.cpp:111
+msgid "ID_FPS_LABEL"
+msgstr ""
+
+#: Context.cpp:92
+msgid "ID_GENERICCONTEXT"
+msgstr ""
+
+#: LayerListWidget.cpp:151 LayerListWidget.cpp:216 LayerListWidget.cpp:317
+#: LayerListWidget.cpp:401 LayerListWidget.cpp:420 LayerListWidget.cpp:490
+#: LayerListWidget.cpp:518 LayerListWidget.cpp:580 LayerListWidget.cpp:616
+#: LayerListWidget.cpp:634 LayerListWidget.cpp:669 LayerListWidget.cpp:714
+#: LayerListWidget.cpp:759 LayerListWidget.cpp:776 LayerListWidget.cpp:803
+#: LayerListWidget.cpp:866 LayerListWidget.cpp:881
+msgid "ID_HTMLLAYERLIST"
+msgstr ""
+
+#: ViewerHtml.cpp:78 ViewerHtml.cpp:91 ViewerHtml.cpp:108 ViewerHtml.cpp:116
+msgid "ID_HTMLRENDERER"
+msgstr ""
+
+#: ViewerHtml.cpp:129
+msgid "ID_HTMLTOOLBAR"
+msgstr ""
+
+#: ViewerHtml.cpp:67
+msgid "ID_HTMLVIEWER"
+msgstr ""
+
+#: PatManagerWidget.cpp:181 PatManagerWidget.cpp:939
+msgid "ID_INSTALL_PAT"
+msgstr ""
+
+#: Context2D.cpp:103 Context.cpp:103
+msgid "ID_LAYERS"
+msgstr ""
+
+#: MapTool.cpp:339
+msgid "ID_LEGEND_CHECK"
+msgstr ""
+
+#: PatManagerWidget.cpp:177 PatManagerWidget.cpp:652 PatManagerWidget.cpp:938
+msgid "ID_LOAD_PAT"
+msgstr ""
+
+#: PatManagerWidget.cpp:205 PatManagerWidget.cpp:209 PatManagerWidget.cpp:213
+#: PatManagerWidget.cpp:218 PatManagerWidget.cpp:310 PatManagerWidget.cpp:312
+#: PatManagerWidget.cpp:329 PatManagerWidget.cpp:440 PatManagerWidget.cpp:462
+#: PatManagerWidget.cpp:644 PatManagerWidget.cpp:755 PatManagerWidget.cpp:759
+#: PatManagerWidget.cpp:766 PatManagerWidget.cpp:771 PatManagerWidget.cpp:942
+#: PatManagerWidget.cpp:1063 PatManagerWidget.cpp:1064
+#: PatManagerWidget.cpp:1068 PatManagerWidget.cpp:1092
+#: PatManagerWidget.cpp:1094 PatManagerWidget.cpp:1113
+#: PatManagerWidget.cpp:1312
+msgid "ID_LSTCTRL_PAT"
+msgstr ""
+
+#: MainWindow.cpp:100
+msgid "ID_MAINBOOK"
+msgstr ""
+
+#: MapTool.cpp:90
+msgid "ID_MAP_TOOL"
+msgstr ""
+
+#: MeassureTool.cpp:71
+msgid "ID_MEASSUREMENT_TOOL"
+msgstr ""
+
+#: PatManagerWidget.cpp:165 PatManagerWidget.cpp:936 PatManagerWidget.cpp:975
+msgid "ID_NEW_PAT"
+msgstr ""
+
+#: MapTool.cpp:340
+msgid "ID_NORTH_CHECK"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:119
+msgid "ID_PANEL_ANOTATION_PROPERTIES"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:79
+msgid "ID_PANEL_HOTLINK_PROP"
+msgstr ""
+
+#: PatInfoPart.cpp:103
+msgid "ID_PANEL_INFOPAT"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:130
+msgid "ID_PANEL_PROP"
+msgstr ""
+
+#: Context2D.cpp:106 Context2D.cpp:111 MainToolbar.cpp:68
+msgid "ID_PATTOOLBAR"
+msgstr ""
+
+#: PhotoPropertiesPart.cpp:58
+msgid "ID_PHOTO_DESCRIPTION"
+msgstr ""
+
+#: PhotoPropertiesPart.cpp:53
+msgid "ID_PHOTO_PROPERTIES"
+msgstr ""
+
+#: PhotoPropertiesPart.cpp:57
+msgid "ID_PHOTO_TITLE"
+msgstr ""
+
+#: MapTool.cpp:341
+msgid "ID_SCALE_CHECK"
+msgstr ""
+
+#: LayerListWidget.cpp:148
+msgid "ID_SLLAYERLIST"
+msgstr ""
+
+#: AnimationTool.cpp:116
+msgid "ID_SPEED_SLIDER"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:40 AnotationPropertiesPart.cpp:166
+#: AnotationPropertiesPart.cpp:189
+msgid "ID_SPINCTRL_FONT_SIZE"
+msgstr ""
+
+#: Context.cpp:94 Context.cpp:96 Context.cpp:101
+msgid "ID_SPLITTERWINDOW"
+msgstr ""
+
+#: AnimationTool.cpp:130 AnimationTool.cpp:166 AnimationTool.cpp:304
+#: AnimationTool.cpp:343 AnimationTool.cpp:384 AnimationTool.cpp:423
+msgid "ID_START_STOP"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:141 AnotationPropertiesPart.cpp:180
+#: AnotationPropertiesPart.cpp:212 AnotationPropertiesPart.cpp:278
+#: AnotationPropertiesPart.cpp:286 AnotationPropertiesPart.cpp:566
+msgid "ID_TXT_ANOTATION"
+msgstr ""
+
+#: PatInfoPart.cpp:25 PatInfoPart.cpp:131 PatInfoPart.cpp:151
+#: PatInfoPart.cpp:252 PatInfoPart.cpp:633
+msgid "ID_TXT_AUTHOR"
+msgstr ""
+
+#: PatInfoPart.cpp:29 PatInfoPart.cpp:133 PatInfoPart.cpp:155
+#: PatInfoPart.cpp:254 PatInfoPart.cpp:619
+msgid "ID_TXT_COPYRIGHT"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:92 HotLinkPropertiesPart.cpp:119
+#: HotLinkPropertiesPart.cpp:150 HotLinkPropertiesPart.cpp:181
+#: HotLinkPropertiesPart.cpp:317 HotLinkPropertiesPart.cpp:370
+#: PatInfoPart.cpp:27 PatInfoPart.cpp:132 PatInfoPart.cpp:153
+#: PatInfoPart.cpp:253 PatInfoPart.cpp:629
+msgid "ID_TXT_DESC"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:96 HotLinkPropertiesPart.cpp:120
+#: HotLinkPropertiesPart.cpp:154 HotLinkPropertiesPart.cpp:182
+#: HotLinkPropertiesPart.cpp:318 HotLinkPropertiesPart.cpp:352
+#: HotLinkPropertiesPart.cpp:353 HotLinkPropertiesPart.cpp:372
+msgid "ID_TXT_IMG"
+msgstr ""
+
+#: PatInfoPart.cpp:31 PatInfoPart.cpp:134 PatInfoPart.cpp:157
+#: PatInfoPart.cpp:185 PatInfoPart.cpp:255 PatInfoPart.cpp:290
+#: PatInfoPart.cpp:291 PatInfoPart.cpp:616
+msgid "ID_TXT_PREVIEW"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:88 HotLinkPropertiesPart.cpp:118
+#: HotLinkPropertiesPart.cpp:146 HotLinkPropertiesPart.cpp:180
+#: HotLinkPropertiesPart.cpp:316 HotLinkPropertiesPart.cpp:368
+#: PatInfoPart.cpp:23 PatInfoPart.cpp:112 PatInfoPart.cpp:130
+#: PatInfoPart.cpp:149 PatInfoPart.cpp:251 PatInfoPart.cpp:636
+msgid "ID_TXT_TITLE"
+msgstr ""
+
+#: Context.cpp:252
+msgid "ID_VIEWER"
+msgstr ""
+
+#: ImageTagHandler.cpp:39
+msgid "IMG"
+msgstr ""
+
+#: messages.h:60
+msgid "Imagenes"
+msgstr "Imágenes"
+
+#: messages.h:104
+msgid "Imagenes (*.bmp; *.png; *.jpg)|*.bmp;*.BMP;*.png;*.PNG;*.jpg;*.JPG"
+msgstr ""
+
+#: messages.h:50
+msgid "Imprimir"
+msgstr ""
+
+#: messages.h:234
+msgid "Inconsistencia entre archivos dentro del PAT y descripcion.xml."
+msgstr ""
+
+#: messages.h:48
+msgid "Informacion de PAT"
+msgstr "Información de PAT"
+
+#: PixelInfoTool.cpp:38
+msgid "Informacion de Pixel"
+msgstr ""
+
+#: messages.h:51
+msgid "Ingresar anotacion"
+msgstr "Ingresar anotación"
+
+#: messages.h:241
+msgid "Instalacion de PAT exitosa."
+msgstr "Instalación de PAT exitosa."
+
+#: messages.h:42
+msgid "Instalar PAT"
+msgstr ""
+
+#: messages.h:202
+msgid "La imagen seleccionada no es una imagen valida."
+msgstr ""
+
+#: messages.h:126
+msgid "Leyenda de mapa"
+msgstr ""
+
+#: messages.h:130
+msgid "Linea"
+msgstr "Línea"
+
+#: ZipFile.cpp:181
+msgid "Lista de archivos vacia. No existen archivos para extraer."
+msgstr ""
+
+#: Application.cpp:41
+msgid "Log"
+msgstr ""
+
+#: messages.h:221
+msgid "Los siguientes elementos no pudieron ser cargados:"
+msgstr ""
+
+#: MapElement.cpp:23 MapElement.cpp:55
+msgid "Mapa"
+msgstr ""
+
+#: messages.h:61
+msgid "Mapas"
+msgstr ""
+
+#: messages.h:84
+msgid "Mediciones"
+msgstr ""
+
+#: messages.h:138
+msgid "Medir area"
+msgstr "Medir área"
+
+#: messages.h:137
+msgid "Medir distancia"
+msgstr ""
+
+#: LayerListWidget.cpp:293 LayerListWidget.cpp:295 LayerListWidget.cpp:467
+#: LayerListWidget.cpp:469
+msgid "Mostrar elementos ocultos"
+msgstr ""
+
+#: messages.h:56
+msgid "Muestra escala"
+msgstr ""
+
+#: messages.h:57
+msgid "Muestra leyenda"
+msgstr ""
+
+#: messages.h:55
+msgid "Muestra norte"
+msgstr ""
+
+#: messages.h:121
+msgid "N"
+msgstr ""
+
+#: messages.h:112
+msgid "Ninguna"
+msgstr ""
+
+#: messages.h:244
+msgid "No existe el archivo seleccionado para vista previa."
+msgstr ""
+
+#: messages.h:178
+#, c-format
+msgid "No existe el archivo: %s."
+msgstr ""
+
+#: ZipFile.cpp:380
+msgid "No se agregaron archivos al Zip. Archivos ya existentes en el Zip."
+msgstr ""
+
+#: ZipFile.cpp:359
+msgid "No se agregaron archivos al Zip. Error en apertura del Zip: "
+msgstr ""
+
+#: ZipFile.cpp:342
+msgid "No se agregaron archivos al Zip. No hay archivos para agregar."
+msgstr ""
+
+#: messages.h:187
+msgid "No se creo la herramienta principal."
+msgstr "No se creó la herramienta principal."
+
+#: messages.h:246
+msgid "No se encontraron archivos en el PAT."
+msgstr ""
+
+#: messages.h:251
+msgid "No se encontraron referencias a los elementos del PAT."
+msgstr ""
+
+#: messages.h:191
+msgid "No se encontro el template."
+msgstr "No se encontró el template."
+
+#: messages.h:275
+msgid "No se encuentra nodo URL."
+msgstr ""
+
+#: messages.h:181
+msgid ""
+"No se encuentran archivos de la instalacion. Por favor vuelva a instalar la "
+"aplicacion."
+msgstr ""
+"No se encuentran archivos de la instalación. Por favor vuelva a instalar la "
+"aplicación."
+
+#: ZipFile.cpp:244
+msgid "No se extrajeron archivos al Zip. Error en apertura del Zip: "
+msgstr ""
+
+#: ZipFile.cpp:348
+msgid ""
+"No se pudieron agregar archivos. Cantidad de path distinta a la cantidad de "
+"archivos."
+msgstr ""
+
+#: messages.h:261
+msgid "No se pudo agregar la textura al terreno."
+msgstr ""
+
+#: messages.h:210
+msgid "No se pudo generar archivo de configuracion del PAT."
+msgstr "No se pudo generar archivo de configuración del PAT."
+
+#: messages.h:166
+msgid "No se pudo generar directorio temporal para hipervinculos."
+msgstr "No se pudo generar directorio temporal para hipervínculos."
+
+#: messages.h:167
+msgid "No se pudo generar directorio temporal para vectores."
+msgstr ""
+
+#: messages.h:250
+#, c-format
+msgid "No se pudo generar el PAT comprimido. Motivo: %s."
+msgstr ""
+
+#: messages.h:182
+msgid "No se pudo obtener archivos para desplegar informacion."
+msgstr "No se pudo obtener archivos para desplegar información."
+
+#: messages.h:212
+msgid "No se pudo salvar archivo de configuracion del PAT."
+msgstr "No se pudo salvar archivo de configuración del PAT."
+
+#: messages.h:254
+msgid "No se puede generar un PAT sin elementos."
+msgstr ""
+
+#: messages.h:44
+msgid "Nuevo PAT"
+msgstr ""
+
+#: messages.h:124
+msgid "O"
+msgstr ""
+
+#: PatManagerWidget.cpp:1067
+msgid "PAT"
+msgstr ""
+
+#: messages.h:240
+#, c-format
+msgid "PAT generado con errores. Descripcion: %s."
+msgstr "PAT generado con errores. Descripción: %s."
+
+#: MeassureAreaButton.cpp:21
+msgid ""
+"PROJCS[\"World_Sinusoidal\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\","
+"SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT"
+"[\"Degree\",0.017453292519943295]],PROJECTION[\"Sinusoidal\"],PARAMETER"
+"[\"false_easting\",0],PARAMETER[\"false_northing\",0],PARAMETER"
+"[\"longitude_of_center\",0],UNIT[\"Meter\",1]]"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:281
+msgid "PUNTO"
+msgstr ""
+
+#: messages.h:131
+msgid "Poligono"
+msgstr "Polígono"
+
+#: messages.h:71
+msgid "Propiedades de anotacion"
+msgstr "Propiedades de anotación"
+
+#: messages.h:69
+msgid "Propiedades de elemento"
+msgstr ""
+
+#: messages.h:68
+msgid "Propiedades de fotografia"
+msgstr "Propiedades de fotografía"
+
+#: messages.h:70
+msgid "Propiedades de hipervinculo"
+msgstr "Propiedades de hipervínculo"
+
+#: messages.h:129
+msgid "Punto"
+msgstr ""
+
+#: messages.h:257
+msgid "Punto afuera del area valida."
+msgstr "Punto afuera del área válida."
+
+#: messages.h:278
+msgid "Punto fuera del area permitida"
+msgstr ""
+
+#: messages.h:122
+msgid "S"
+msgstr ""
+
+#: ImageTagHandler.cpp:52 ImageTagHandler.cpp:54
+msgid "SRC"
+msgstr ""
+
+#: DrawPointButton.cpp:105
+msgid "SURHotLink"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:33
+msgid "SURHotlink"
+msgstr ""
+
+#: AnotationElement.cpp:29 AnotationPropertiesPart.cpp:26
+msgid "SURLabel"
+msgstr ""
+
+#: messages.h:266
+msgid "Seleccion de elementos incompatible para animacion."
+msgstr "Selección de elementos incompatible para animación."
+
+#: messages.h:36
+msgid "Seleccionar el directorio para guardar el archivo PAT comprimido"
+msgstr ""
+
+#: messages.h:39
+msgid "Seleccionar el elemento para agregar"
+msgstr ""
+
+#: messages.h:35
+msgid "Seleccionar imagen"
+msgstr ""
+
+#: messages.h:38
+msgid "Seleccionar imagen de textura para el terreno"
+msgstr ""
+
+#: messages.h:37
+msgid "Seleccionar vista previa del PAT"
+msgstr ""
+
+#: messages.h:214
+msgid "Seleccione un PAT de la lista."
+msgstr ""
+
+#: messages.h:90
+msgid "Sin descripcion"
+msgstr "Sin descripción"
+
+#: messages.h:188
+msgid "Sin propiedad <tipo>."
+msgstr ""
+
+#: messages.h:32
+msgid "Software 2Mp"
+msgstr ""
+
+#: messages.h:242
+msgid "Solo se pueden editar PATs de usuario."
+msgstr "Sólo se pueden editar PATs de usuario."
+
+#: HotLinkPropertiesPart.cpp:282
+msgid "SuriHotLink"
+msgstr ""
+
+#: messages.h:62
+msgid "Terrenos 3D"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:151
+msgid "Titulo"
+msgstr ""
+
+#: AnotationElement.cpp:30 AnotationPropertiesPart.cpp:27
+#, c-format
+msgid ""
+"VECTORSTYLE[1,\"Anotacion_BN\",SYMBOL[\"Suri-symbol\",0,COLOR[0,0,0,0],SIZE"
+"[1]],LABEL[\"Suri-label\",1,EXPRESSION[\"{%s}\"],COLOR[0,0,0,255],BACKCOLOR"
+"[255,255,255,255],SIZE[8],ITALIC[0],BOLD[0],UNDERLINED[0],ANGLE[0],OFFSET"
+"[0,0],ANCHOR[4]]]"
+msgstr ""
+
+#: messages.h:28 messages.h:132
+msgid "Vector desconocido"
+msgstr ""
+
+#: messages.h:49
+msgid "Visualizador de HTML"
+msgstr ""
+
+#: MapTool.cpp:275
+msgid "WGS-84_Grid_10deg.dbf"
+msgstr ""
+
+#: MapTool.cpp:263
+msgid "WGS-84_Grid_1deg.dbf"
+msgstr ""
+
+#: MapTool.cpp:279
+msgid "WGS-84_Grid_20deg.dbf"
+msgstr ""
+
+#: MapTool.cpp:267
+msgid "WGS-84_Grid_2deg.dbf"
+msgstr ""
+
+#: MapTool.cpp:283
+msgid "WGS-84_Grid_30deg.dbf"
+msgstr ""
+
+#: MapTool.cpp:271
+msgid "WGS-84_Grid_5deg.dbf"
+msgstr ""
+
+#: messages.h:284
+msgid "Ya existe un PAT de usuario con el mismo nombre. Desea reemplazarlo?"
+msgstr "Ya existe un PAT de usuario con el mismo nombre. ¿Desea reemplazarlo?"
+
+#: messages.h:287
+msgid "Ya existe un PAT instalado con el mismo nombre. Desea reemplazarlo?"
+msgstr "Ya existe un PAT instalado con el mismo nombre. ¿Desea reemplazarlo?"
+
+#: messages.h:140
+msgid "^2"
+msgstr "²"
+
+#: PatManagerWidget.cpp:1196
+msgid "_.xml"
+msgstr ""
+
+#: PhotoElement.cpp:150
+msgid "alt=\"Fotografia\"/>"
+msgstr ""
+
+#: Application.cpp:104 MainWindow.cpp:561
+msgid "app_base_dir_volatile"
+msgstr ""
+
+#: Application.cpp:288 MainWindow.cpp:713
+msgid "app_data_dir"
+msgstr ""
+
+#: Application.cpp:249
+msgid "app_help_dir"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:195 MainWindow.cpp:562 MainWindow.cpp:590
+#: HotLinkVectorElement.cpp:55 HotLinkVectorElement.cpp:216
+#: PatManagerWidget.cpp:919 PatManagerWidget.cpp:1274
+msgid "app_hotlink_base_dir_volatile"
+msgstr ""
+
+#: PatInfoPart.cpp:1259 MainWindow.cpp:588 HotLinkVectorElement.cpp:41
+#: HotLinkVectorElement.cpp:45 PatFile.cpp:1705
+msgid "app_hotlinks_dir"
+msgstr ""
+
+#: Application.cpp:135
+msgid "app_lang_dir"
+msgstr ""
+
+#: Application.cpp:126
+msgid "app_language"
+msgstr ""
+
+#: MapTool.cpp:260
+msgid "app_map_grid_dir"
+msgstr ""
+
+#: PatInfoPart.cpp:224 Application.cpp:291 MainWindow.cpp:556
+#: MainWindow.cpp:578 HotLinkVectorElement.cpp:40
+msgid "app_temp_dir"
+msgstr ""
+
+#: Application.cpp:292
+msgid "app_user_data"
+msgstr ""
+
+#: DrawAnotationButton.cpp:82 MainWindow.cpp:563 MainWindow.cpp:596
+#: HotLinkVectorElement.cpp:437 PatManagerWidget.cpp:1259
+#: DrawVectorButton.cpp:148
+msgid "app_vector_base_dir_volatile"
+msgstr ""
+
+#: MainWindow.cpp:594 PatFile.cpp:1803
+msgid "app_vector_dir"
+msgstr ""
+
+#: PatInfoPart.cpp:1093 Application.cpp:107
+msgid "app_version"
+msgstr ""
+
+#: Application.cpp:250
+msgid "ayuda.hhp"
+msgstr ""
+
+#: LayerListWidget.cpp:645
+msgid "checkbox"
+msgstr ""
+
+#: Application.cpp:102
+msgid "configuracion.xml"
+msgstr ""
+
+#: ViewerHtml.cpp:22
+msgid "data/fotografia/"
+msgstr ""
+
+#: PhotoElement.cpp:161
+msgid "data/fotografia/imagen.html"
+msgstr ""
+
+#: PatInfoPart.cpp:244 PatInfoPart.cpp:341 PatInfoPart.cpp:468
+#: PatInfoPart.cpp:1129 PatFile.cpp:101 PatFile.cpp:165 PatFile.cpp:171
+#: PatFile.cpp:414 PatFile.cpp:431 PatFile.cpp:1485 PatManagerWidget.cpp:565
+#: PatManagerWidget.cpp:1077 PatManagerWidget.cpp:1086
+#: PatManagerWidget.cpp:1224
+msgid "descripcion.xml"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:206 HotLinkPropertiesPart.cpp:222
+msgid "elemento"
+msgstr ""
+
+#: Application.cpp:145
+msgid "es/LC_MESSAGES"
+msgstr ""
+
+#: Application.cpp:168
+msgid "fileutils"
+msgstr ""
+
+#: MainWindow.cpp:717
+msgid "gdal/"
+msgstr ""
+
+#: messages.h:143
+msgid "ha"
+msgstr ""
+
+#: ViewerHtml.cpp:230
+msgid "imagen.html"
+msgstr ""
+
+#: messages.h:142
+msgid "km"
+msgstr ""
+
+#: MainWindow.cpp:715
+msgid "lib_ignored_image_formats"
+msgstr ""
+
+#: messages.h:141
+msgid "m"
+msgstr ""
+
+#: MapRenderer.cpp:50 MapRenderer.cpp:90 MapRenderer.cpp:176
+msgid "mapa"
+msgstr ""
+
+#: resources.h:26
+msgid ""
+"memory::XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawAnotation-16.png"
+msgstr ""
+
+#: resources.h:28
+msgid "memory::XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawLine-16.png"
+msgstr ""
+
+#: resources.h:27
+msgid "memory::XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawPoint-16.png"
+msgstr ""
+
+#: resources.h:29
+msgid ""
+"memory::XRC_resource/Resources_xrced.cpp$bitmaps_tool-DrawPolygon-16.png"
+msgstr ""
+
+#: resources.h:32
+msgid ""
+"memory::XRC_resource/Resources_xrced.cpp$bitmaps_tool-MeasureArea-16.png"
+msgstr ""
+
+#: resources.h:31
+msgid ""
+"memory::XRC_resource/Resources_xrced.cpp$bitmaps_tool-MeasureDistance-16.png"
+msgstr ""
+
+#: resources.h:21
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-CheckOff-16.png"
+msgstr ""
+
+#: resources.h:22
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-CheckOn-16.png"
+msgstr ""
+
+#: resources.h:38
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-MapLegend-16.png"
+msgstr ""
+
+#: resources.h:39
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-MapNorthArrow-16.png"
+msgstr ""
+
+#: resources.h:37
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-MapScale-16.png"
+msgstr ""
+
+#: resources.h:35
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-PauseAnimation-16.png"
+msgstr ""
+
+#: resources.h:34
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_button-PlayAnimation-16.png"
+msgstr ""
+
+#: resources.h:14
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_context-Document-48.png"
+msgstr ""
+
+#: resources.h:16
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_context-Exercises-48.png"
+msgstr ""
+
+#: resources.h:12
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_context-Map-48.png"
+msgstr ""
+
+#: resources.h:15
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_context-Photo-48.png"
+msgstr ""
+
+#: resources.h:11
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_context-SatelliteImage-48.png"
+msgstr ""
+
+#: resources.h:13
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_context-Terrain-48.png"
+msgstr ""
+
+#: resources.h:7
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-AnotationElement-32.png"
+msgstr ""
+
+#: resources.h:42
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-AnotationProperties-32."
+"png"
+msgstr ""
+
+#: resources.h:4
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-Application-16.png"
+msgstr ""
+
+#: resources.h:18
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-BlockedPAT-16.png"
+msgstr ""
+
+#: resources.h:19
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-CustomPAT-16.png"
+msgstr ""
+
+#: resources.h:6
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-DocumentElement-32.png"
+msgstr ""
+
+#: resources.h:8
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-HotlinkElement-32.png"
+msgstr ""
+
+#: resources.h:43
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-HotlinkProperties-32.png"
+msgstr ""
+
+#: resources.h:9
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-MapElement-32.png"
+msgstr ""
+
+#: resources.h:5
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-PhotoElement-32.png"
+msgstr ""
+
+#: resources.h:41
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_icon-PhotoProperties-32.png"
+msgstr ""
+
+#: resources.h:24
+msgid ""
+"memory:XRC_resource/Resources_xrced.cpp$bitmaps_picture-NorthArrow-128.png"
+msgstr ""
+
+#: resources.h:45
+msgid "memory:XRC_resource/Resources_xrced.cpp$bitmaps_splash-Application.png"
+msgstr ""
+
+#: messages.h:97
+msgid "pat"
+msgstr ""
+
+#: PatPropertiesHtmlViewerPart.cpp:23
+msgid "pat.html"
+msgstr ""
+
+#: PatFile.cpp:86 PatFile.cpp:1476 PatManagerWidget.cpp:1213
+msgid "pat.xml"
+msgstr ""
+
+#: PatInfoPart.cpp:225 PatInfoPart.cpp:1147 PatInfoPart.cpp:1257
+#: MainWindow.cpp:586 HotLinkVectorElement.cpp:43 PatFile.cpp:1704
+#: PatFile.cpp:1802
+msgid "pat_common_dir"
+msgstr ""
+
+#: Context.cpp:280
+msgid "pat_default_copyright"
+msgstr ""
+
+#: Context.cpp:285
+msgid "pat_default_description"
+msgstr ""
+
+#: PatPropertiesHtmlViewerPart.cpp:24
+msgid "pat_empty.html"
+msgstr ""
+
+#: PatPropertiesHtmlViewerPart.cpp:66
+msgid "pat_html_dir"
+msgstr ""
+
+#: MainWindow.cpp:460
+msgid "pat_install_dir"
+msgstr ""
+
+#: MainWindow.cpp:451
+msgid "pat_save_dir"
+msgstr ""
+
+#: PhotoElement.cpp:111
+msgid "photo_margin"
+msgstr ""
+
+#: PhotoElement.cpp:109
+msgid "photo_max_width"
+msgstr ""
+
+#: PhotoElement.cpp:110
+msgid "photo_min_width"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:433
+msgid "photo_template"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:434
+msgid "r"
+msgstr ""
+
+#: Application.cpp:159
+msgid "resources"
+msgstr ""
+
+#: ParseSuriTemplates.cpp:77
+msgid "sur.html"
+msgstr ""
+
+#: Application.cpp:158
+msgid "suri"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:216 HotLinkPropertiesPart.cpp:304
+#: PatFile.cpp:2323
+msgid "temp"
+msgstr ""
+
+#: messages.h:260
+msgid "un terreno"
+msgstr ""
+
+#: messages.h:265
+msgid "una imagen"
+msgstr ""
+
+#: ViewerHtml.cpp:197
+msgid "url"
+msgstr ""
+
+#: DrawVectorButton.cpp:92
+msgid "vector"
+msgstr ""
+
+#: HotLinkPropertiesPart.cpp:455 PatFile.cpp:781 ParseSuriTemplates.cpp:82
+msgid "w"
+msgstr ""
+
+#: AnimationTool.cpp:120
+msgid "wxID_BACKWARD"
+msgstr ""
+
+#: PatManagerWidget.cpp:154
+msgid "wxID_CANCEL"
+msgstr ""
+
+#: AnimationTool.cpp:135
+msgid "wxID_FORWARD"
+msgstr ""
+
+#: PatManagerWidget.cpp:201
+msgid "wxID_HELP"
+msgstr ""
+
+#: PatManagerWidget.cpp:147 PatManagerWidget.cpp:151
+msgid "wxID_OK"
+msgstr ""
+
+#: ViewerHtml.cpp:132
+msgid "wxID_PRINT"
+msgstr ""
+
+#: AnimationTool.cpp:125
+msgid "wxID_STOP"
+msgstr ""
+
+#: Application.cpp:147
+msgid "wxstd"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:511
+msgid "{"
+msgstr ""
+
+#: HotLinkVectorElement.cpp:265
+msgid "|"
+msgstr ""
+
+#: AnotationPropertiesPart.cpp:513
+msgid "}"
+msgstr ""
+
+#~ msgid "El PAT %s no es un archivo PAT valido."
+#~ msgstr "El PAT %s no es un archivo PAT válido."
+
+#~ msgid "Error al agregar contextos: lista de contextos vacia."
+#~ msgstr "Error al agregar contextos: lista de contextos vacía."
+
+#~ msgid "Error al agregar contextos: nodo PAT vacio."
+#~ msgstr "Error al agregar contextos: nodo PAT vacío."
+
+#~ msgid "Error al intentar copiar hipervinculos."
+#~ msgstr "Error al intentar copiar hipervínculos."
+
+#~ msgid ""
+#~ "Error al intentar eliminar archivo: %s. Verifique que exista y que no "
+#~ "este siendo usado"
+#~ msgstr ""
+#~ "Error al intentar eliminar archivo: %s. Verifique que exista y que no "
+#~ "esté siendo usado"
+
+#~ msgid "Error al intentar eliminar la informacion de PAT."
+#~ msgstr "Error al intentar eliminar la información de PAT."
+
+#~ msgid "Error al intentar obtener descripcion."
+#~ msgstr "Error al intentar obtener descripción."
+
+#~ msgid "Fallo extraccion del archivo descripcion.xml."
+#~ msgstr "Falló extracción del archivo descripcion.xml."
+
+#~ msgid "Lista de elementos invalida."
+#~ msgstr "Lista de elementos inválida."
+
+#~ msgid "No se encuentra el nodo hipervinculo."
+#~ msgstr "No se encuentra el nodo hipervínculo."
+
+#~ msgid "No se pudo crear el directorio de instalacion de PATs."
+#~ msgstr "No se pudo crear el directorio de instalación de PATs."
+
+#~ msgid "No se pudo crear el directorio de instalacion para el PAT: "
+#~ msgstr "No se pudo crear el directorio de instalación para el PAT: "
+
+#~ msgid "No se pudo crear el directorio de instalacion para el PAT: %s."
+#~ msgstr "No se pudo crear el directorio de instalación para el PAT: %s."
+
+#~ msgid "No se pudo obtener nodo informacion."
+#~ msgstr "No se pudo obtener nodo información."
+
+#~ msgid "Nombre de directorio diferente a nodo informacion|nombre."
+#~ msgstr "Nombre de directorio diferente a nodo información|nombre."
+
+#~ msgid "Path invalido. No se puede crear directorio: %s."
+#~ msgstr "Path inválido. No se puede crear directorio: %s."
+
+#~ msgid "Seleccione un PAT para obtener informacion"
+#~ msgstr "Seleccione un PAT para obtener información"
+
+#~ msgid "Tipo de PAT invalido."
+#~ msgstr "Tipo de PAT inválido."

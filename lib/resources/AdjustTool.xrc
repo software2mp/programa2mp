@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_ADJUST_TOOL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Ajustes</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxStaticBitmap" name="wxID_STATIC">
+                    <size>16,16</size>
+                    <bitmap>bitmaps/picture-ImageBrightnessNG-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxSlider" name="ID_BRIGHTNESS_SLIDER">
+                    <size>100,24</size>
+                    <style>wxSL_TOP</style>
+                    <value>0</value>
+                    <min>-50</min>
+                    <max>50</max>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="ID_BRIGHT_VALUE_LABEL">
+                    <size>40,-1</size>
+                    <label>0     </label>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxStaticBitmap" name="wxID_STATIC">
+                    <size>16,16</size>
+                    <bitmap>bitmaps/picture-ImageContrastNG-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxSlider" name="ID_CONTRAST_SLIDER">
+                    <size>100,24</size>
+                    <style>wxSL_HORIZONTAL|wxSL_TOP</style>
+                    <value>50</value>
+                    <min>0</min>
+                    <max>100</max>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxStaticText" name="ID_CONTRASTE_VALUE_LABEL">
+                    <label>10</label>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

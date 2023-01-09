@@ -1,0 +1,53 @@
+
+2012/09 - versión 1.2.1
+ * Solicitud de permisos de administrador bajo Windows 7 y Vista durante la 
+   instalación.
+ * Selección de directorio de PATs durante la instalación bajo Windows.
+ * Acceso directo al archivo de cambios en el menú de aplicación bajo Windows.
+
+2010/12 - versión 1.2.0
+ * La referencia en la herramienta de creación de mapas deberá permitir la
+   visualización de nombres más extensos de las capas desplegadas.
+ * El resultado de las mediciones deberá figurar en la referencia de la
+   herramienta de creación de mapas.
+ * Al crear una anotación el texto introducido para la misma deberá utilizarse
+   también para definir el nombre del elemento anotación.
+
+2010/03 - versión 1.1.0
+ * Herramienta de Zoom 1:1 con la imagen desplegada.
+ * Herramienta de Zoom por área de interés.
+ * Navegación limitada al raster visualizado.
+ * Soporte distintos tipos de datos para los elementos terreno.
+ * Utilización de la georreferencia en vectores de puntos en 3D.
+ * Mantener posición de la cámara 3D cuando se cambian propiedades del terreno.
+ * Incorporar velocidades bajas de cámara para una mejor navegación.
+ * Velocidades de cámara "adaptadas" al hardware en que corre la aplicación.
+ * Asociación de .pat en el sistema operativo.
+ * Icono de elemento vectorial de acuerdo al tipo.
+ * Nombre de la capa raster en la leyenda del mapa.
+ * Botones toggle para los elementos del mapa.
+ * Habilitación inteligente de botones según esté disponible la funcionalidad.
+ * Diseño de escala mejorado.
+ * Herramienta de localización.
+ * Herramienta de GPS.
+ * Herramienta de impresión HTML.
+ * Bibliotecas de estilos vectoriales según elemento/herramienta.
+ * Resultados medición en tiempo real.
+ * Filtro de archivos según contexto.
+
+2009/09 - versión 1.0.4
+ * Las esferas en la vista 3D estan apoyadas sobre el terreno.
+ * La herramienta de consulta 3D muestra sólo los hipervínculos asociados a la
+   esfera seleccionada sin incluir las que están cerca.
+ * Validación del texto que se ingresa en las coordenadas de navegación.
+ * Corrije una discontinuidad en la textura en la vista 3D.
+ * Realiza verificaciones más rápidas durante la creación de vectores.
+ * Corrección para que genere PATs con elementos vectoriales creados por
+   las herramientas de edición.
+ * Verifica que el vector este abierto antes de salvarlo para polígonos y líneas.
+ * Maneja el Nombre, Directorio y Archivo de PAT en forma más robusta.
+ * Incluye versión de la aplicación en los .pat y configuracion.xml
+ * Filtro de imagenes corregido para que funcione en linux.
+
+2009/02 - versión 1.0.0
+ * Versión Inicial

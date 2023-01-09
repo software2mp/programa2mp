@@ -1,0 +1,24 @@
+[Desktop Entry]
+Comment=Very fast, and simple, yet powerful
+Comment[en_US]=Satellite Image educational software for students between 8 and 16 years
+comment[es]=Software educativo con imagenes satelitales para jóvenes entre 8 y 16 años de edad
+Encoding=UTF-8
+Exec=programa2mp.sh %f
+GenericName=Software educativo
+GenericName[en_US]=Educational software
+GenericName[es]=Software educativo
+Icon=2mp.png
+MimeType=application/pat;
+Name=Programa 2Mp de Educación
+Name[en_US]=2Mp Education Program
+Name[es]=Programa 2Mp de Educación
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+Categories=Education;Graphics;RasterGraphics;Viewer;
+FilePattern=
+TryExec=Programa2Mp
+Type=Application
+Version=3.0.0

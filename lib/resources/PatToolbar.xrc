@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_PATTOOLBAR">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>PAT Toolbar</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_NEW">
+                    <tooltip>Nuevo PAT</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-NewPAT-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_OPEN">
+                    <tooltip>Administracion de PATs</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-PATManager-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_SAVE">
+                    <tooltip>Guardar PAT</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-SavePAT-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_INSERT">
+                    <tooltip>Agregar elemento</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-AddElement-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_DELETE">
+                    <tooltip>Quitar elemento</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-CloseElement-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_ADD_URL_ELEMENT_BUTTON">
+                    <tooltip>Agregar URL</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-Mark-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxALL</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_ADD_WMS_ELEMENT">
+                    <tooltip>Agregar capa remota</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-AddWmsElement-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_GROUPELEMENTS">
+                    <tooltip>Agrupar los elementos seleccionados</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-GroupLayers-16.png</bitmap>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxBitmapButton" name="ID_BUTTON_CONFIG">
+                    <tooltip>Configuracion</tooltip>
+                    <style>wxBU_AUTODRAW</style>
+                    <bitmap>bitmaps/button-GeneralSettings-16.png</bitmap>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

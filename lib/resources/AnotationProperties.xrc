@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_PANEL_ANOTATION_PROPERTIES">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>AnotationProperties</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxPanel" name="ID_PANEL_PROP">
+                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                    <object class="wxBoxSizer">
+                        <orient>wxVERTICAL</orient>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <object class="wxStaticBoxSizer" name="ID_STATICBOXSIZER">
+                                <orient>wxHORIZONTAL</orient>
+                                <label>Texto</label>
+                                <object class="sizeritem">
+                                    <flag>wxGROW|wxALL</flag>
+                                    <border>5</border>
+                                    <option>1</option>
+                                    <object class="wxTextCtrl" name="ID_TXT_ANOTATION">
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxALIGN_LEFT|wxALL</flag>
+                            <border>5</border>
+                            <object class="wxCheckBox" name="ID_CHECKBOX_LABEL_ENABLE">
+                                <label>Etiqueta Visible</label>
+                                <checked>0</checked>
+                            </object>
+                        </object>
+                        <object class="sizeritem">
+                            <flag>wxGROW</flag>
+                            <border>5</border>
+                            <option>1</option>
+                            <object class="wxPanel" name="ID_PANEL_LABEL_CONFIGURATION_PARENT">
+                                <style>wxTAB_TRAVERSAL</style>
+                                <object class="wxBoxSizer">
+                                    <orient>wxVERTICAL</orient>
+                                    <object class="sizeritem">
+                                        <flag>wxGROW|wxBOTTOM</flag>
+                                        <border>5</border>
+                                        <object class="wxPanel" name="ID_PANEL_FIELD_SELECTION">
+                                            <style>wxTAB_TRAVERSAL</style>
+                                            <enabled>0</enabled>
+                                            <object class="wxStaticBoxSizer" name="SIZER_TXT_ANOTATION">
+                                                <orient>wxHORIZONTAL</orient>
+                                                <label>Origen de la etiqueta</label>
+                                                <object class="sizeritem">
+                                                    <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                                                    <border>2</border>
+                                                    <object class="wxStaticText" name="wxID_STATIC">
+                                                        <label>Campo:</label>
+                                                    </object>
+                                                </object>
+                                                <object class="sizeritem">
+                                                    <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                                                    <border>2</border>
+                                                    <option>1</option>
+                                                    <object class="wxChoice" name="ID_CHOICE_FIELD">
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxGROW|wxBOTTOM</flag>
+                                        <border>5</border>
+                                        <object class="wxGridSizer">
+                                            <cols>2</cols>
+                                            <rows>2</rows>
+                                            <vgap>4</vgap>
+                                            <hgap>4</hgap>
+                                            <object class="sizeritem">
+                                                <flag>wxGROW|wxGROW</flag>
+                                                <border>5</border>
+                                                <option>1</option>
+                                                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                    <orient>wxVERTICAL</orient>
+                                                    <label>Fuente</label>
+                                                    <object class="sizeritem">
+                                                        <flag>wxGROW</flag>
+                                                        <border>5</border>
+                                                        <option>1</option>
+                                                        <object class="wxFlexGridSizer">
+                                                            <cols>2</cols>
+                                                            <rows>2</rows>
+                                                            <vgap>4</vgap>
+                                                            <hgap>4</hgap>
+                                                            <growablecols>1</growablecols>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                                    <label>Tipo</label>
+                                                                </object>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxChoice" name="ID_CHOICE_FONT_TYPE">
+                                                                </object>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                                    <label>Tamano</label>
+                                                                </object>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <flag>wxGROW|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxSpinCtrl" name="ID_SPINCTRL_FONT_SIZE">
+                                                                    <style>wxSP_ARROW_KEYS</style>
+                                                                    <value>1</value>
+                                                                    <min>1</min>
+                                                                    <max>72</max>
+                                                                </object>
+                                                            </object>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxGROW|wxGROW</flag>
+                                                <border>5</border>
+                                                <option>1</option>
+                                                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                    <orient>wxVERTICAL</orient>
+                                                    <label>Efectos</label>
+                                                    <object class="sizeritem">
+                                                        <flag>wxGROW|wxBOTTOM</flag>
+                                                        <border>4</border>
+                                                        <object class="wxCheckBox" name="ID_CHK_BOLD">
+                                                            <font>
+                                                                <size>8</size>
+                                                                <family>swiss</family>
+                                                                <weight>bold</weight>
+                                                                <face>Tahoma</face>
+                                                            </font>
+                                                            <label>Negrita</label>
+                                                            <checked>0</checked>
+                                                        </object>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <flag>wxGROW|wxBOTTOM</flag>
+                                                        <border>4</border>
+                                                        <object class="wxCheckBox" name="ID_CHK_ITALIC">
+                                                            <font>
+                                                                <size>8</size>
+                                                                <family>swiss</family>
+                                                                <style>italic</style>
+                                                                <face>Tahoma</face>
+                                                            </font>
+                                                            <label>Italica</label>
+                                                            <checked>0</checked>
+                                                        </object>
+                                                    </object>
+                                                    <object class="sizeritem">
+                                                        <flag>wxGROW</flag>
+                                                        <border>5</border>
+                                                        <object class="wxCheckBox" name="ID_CHK_UNDERLINE">
+                                                            <label>Subrayado</label>
+                                                            <checked>0</checked>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxGROW|wxGROW</flag>
+                                                <border>5</border>
+                                                <option>1</option>
+                                                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                    <orient>wxVERTICAL</orient>
+                                                    <label>Color</label>
+                                                    <object class="sizeritem">
+                                                        <flag>wxGROW</flag>
+                                                        <border>5</border>
+                                                        <option>1</option>
+                                                        <object class="wxFlexGridSizer">
+                                                            <cols>2</cols>
+                                                            <rows>2</rows>
+                                                            <vgap>4</vgap>
+                                                            <hgap>4</hgap>
+                                                            <growablecols>1</growablecols>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                                    <label>Fuente</label>
+                                                                </object>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxColourPickerCtrl" name="ID_COLOUR_FONT">
+                                                                    <style>wxCLRP_DEFAULT_STYLE</style>
+                                                                </object>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxCheckBox" name="ID_CHK_BACKGROUND">
+                                                                    <style>wxALIGN_RIGHT</style>
+                                                                    <label>Fondo</label>
+                                                                    <checked>0</checked>
+                                                                </object>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_RIGHT|wxALIGN_CENTER_VERTICAL</flag>
+                                                                <border>5</border>
+                                                                <object class="wxColourPickerCtrl" name="ID_COLOUR_BACKGROUND">
+                                                                    <style>wxCLRP_DEFAULT_STYLE</style>
+                                                                </object>
+                                                            </object>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                            <object class="sizeritem">
+                                                <flag>wxGROW|wxGROW</flag>
+                                                <border>5</border>
+                                                <option>1</option>
+                                                <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                                    <orient>wxVERTICAL</orient>
+                                                    <label>Posicion</label>
+                                                    <object class="sizeritem">
+                                                        <flag>wxGROW</flag>
+                                                        <border>5</border>
+                                                        <object class="wxBoxSizer">
+                                                            <orient>wxHORIZONTAL</orient>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                                                                <border>2</border>
+                                                                <object class="wxStaticText" name="wxID_STATIC">
+                                                                    <label>Estrategia</label>
+                                                                </object>
+                                                            </object>
+                                                            <object class="sizeritem">
+                                                                <flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+                                                                <border>2</border>
+                                                                <option>1</option>
+                                                                <object class="wxChoice" name="ID_CHOICE_ORIENTATION">
+                                                                    <size>100,-1</size>
+                                                                    <content>
+                                                                        <item>Inferior Derecha</item>
+                                                                        <item>Inferior</item>
+                                                                        <item>Inferior Izquierda</item>
+                                                                        <item>Derecha</item>
+                                                                        <item>Centro</item>
+                                                                        <item>Izquierda</item>
+                                                                        <item>Superior derecha</item>
+                                                                        <item>Superior</item>
+                                                                        <item>Superior izquierda</item>
+                                                                    </content>
+                                                                    <selection>0</selection>
+                                                                </object>
+                                                            </object>
+                                                        </object>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                    <object class="sizeritem">
+                                        <flag>wxGROW</flag>
+                                        <border>5</border>
+                                        <option>1</option>
+                                        <object class="wxStaticBoxSizer" name="wxID_ANY">
+                                            <orient>wxHORIZONTAL</orient>
+                                            <label>Vista Previa</label>
+                                            <object class="sizeritem">
+                                                <flag>wxGROW</flag>
+                                                <border>5</border>
+                                                <option>1</option>
+                                                <object class="wxStaticBitmap" name="ID_BMP_PREVIEW">
+                                                    <size>-1,85</size>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

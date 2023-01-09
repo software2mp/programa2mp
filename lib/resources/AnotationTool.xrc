@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_ANOTATION_TOOL">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Anotaciones</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxHORIZONTAL</orient>
+            <object class="sizeritem">
+                <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+                <border>5</border>
+                <object class="wxToolBar" name="ID_TOOLBAR">
+                    <style>wxTB_FLAT|wxTB_HORIZONTAL</style>
+                    <bitmapsize>16,16</bitmapsize>
+                    <dontattachtoframe>1</dontattachtoframe>
+                    <object class="tool" name="wxID_NEW">
+                        <bitmap>blanktool.xpm</bitmap>
+                    </object>
+                    <object class="tool" name="wxID_SAVE">
+                        <bitmap>blanktool.xpm</bitmap>
+                    </object>
+                    <object class="tool" name="wxID_DELETE">
+                        <bitmap>blanktool.xpm</bitmap>
+                    </object>
+                    <object class="tool" name="ID_MOVE_ANOTATION">
+                        <bitmap>blanktool.xpm</bitmap>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxPanel" name="ID_DLGOPENPAT">
+        <style>wxTAB_TRAVERSAL</style>
+        <title>Administracion de PATs</title>
+        <centered>1</centered>
+        <object class="wxBoxSizer">
+            <orient>wxVERTICAL</orient>
+            <object class="sizeritem">
+                <flag>wxGROW</flag>
+                <border>5</border>
+                <object class="wxBoxSizer">
+                    <orient>wxHORIZONTAL</orient>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxLEFT|wxRIGHT|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_NEW_PAT">
+                            <tooltip>Crear nuevo PAT</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-NewPAT-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_EDIT_PAT">
+                            <tooltip>Editar propiedades</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-EditPATProperties-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_LOAD_PAT">
+                            <tooltip>Abrir PAT seleccionado</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-OpenPAT-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_INSTALL_PAT">
+                            <tooltip>Instalar PAT desde archivo</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-InstallPATFile-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_COMPRESS_PAT">
+                            <tooltip>Generar archivo PAT</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-GeneratePATFile-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="ID_DELETE_PAT">
+                            <tooltip>Eliminar PAT</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-DeletePAT-16.png</bitmap>
+                        </object>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL</flag>
+                        <border>0</border>
+                        <object class="wxButton" name="ID_CANCEL">
+                            <size>1,1</size>
+                        </object>
+                    </object>
+                    <object class="spacer">
+                        <flag>wxGROW</flag>
+                        <border>5</border>
+                        <option>1</option>
+                        <size>5,5</size>
+                    </object>
+                    <object class="sizeritem">
+                        <flag>wxALIGN_CENTER_VERTICAL|wxRIGHT|wxTOP</flag>
+                        <border>5</border>
+                        <object class="wxBitmapButton" name="wxID_HELP">
+                            <tooltip>Ayuda</tooltip>
+                            <style>wxBU_AUTODRAW</style>
+                            <bitmap>bitmaps/button-Help-16.png</bitmap>
+                        </object>
+                    </object>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxTOP</flag>
+                <border>5</border>
+                <object class="wxStaticLine" name="wxID_STATIC">
+                    <style>wxLI_HORIZONTAL</style>
+                </object>
+            </object>
+            <object class="sizeritem">
+                <flag>wxGROW|wxALL</flag>
+                <border>5</border>
+                <option>1</option>
+                <object class="wxSplitterWindow" name="ID_SPLITTERWINDOW1">
+                    <style>wxSP_LIVE_UPDATE|wxNO_BORDER</style>
+                    <orientation>vertical</orientation>
+                    <sashpos>150</sashpos>
+                    <minsize>150</minsize>
+                    <object class="wxPanel" name="ID_PANEL">
+                        <style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+                        <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                            <object class="sizeritem">
+                                <flag>wxGROW</flag>
+                                <border>5</border>
+                                <option>1</option>
+                                <object class="wxListCtrl" name="ID_LSTCTRL_PAT">
+                                    <style>wxLC_REPORT|wxLC_NO_HEADER|wxLC_SINGLE_SEL|wxNO_BORDER</style>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                    <object class="wxPanel" name="ID_PANELCONTAINER">
+                        <style>wxSUNKEN_BORDER|wxTAB_TRAVERSAL</style>
+                        <object class="wxBoxSizer">
+                            <orient>wxVERTICAL</orient>
+                            <object class="sizeritem">
+                                <flag>wxGROW</flag>
+                                <border>5</border>
+                                <option>1</option>
+                                <object class="wxPanel" name="ID_CONTAINER_WIN">
+                                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                    <object class="wxBoxSizer">
+                                        <orient>wxVERTICAL</orient>
+                                    </object>
+                                </object>
+                            </object>
+                            <object class="sizeritem">
+                                <flag>wxALIGN_RIGHT</flag>
+                                <border>5</border>
+                                <object class="wxPanel" name="ID_BUTTON_PANEL">
+                                    <style>wxNO_BORDER|wxTAB_TRAVERSAL</style>
+                                    <object class="wxBoxSizer">
+                                        <orient>wxVERTICAL</orient>
+                                        <object class="sizeritem">
+                                            <flag>wxALIGN_CENTER_HORIZONTAL</flag>
+                                            <border>5</border>
+                                            <object class="wxStdDialogButtonSizer">
+                                                <object class="button">
+                                                    <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                                                    <border>5</border>
+                                                    <object class="wxButton" name="wxID_OK">
+                                                        <label>&amp;OK</label>
+                                                    </object>
+                                                </object>
+                                                <object class="button">
+                                                    <flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+                                                    <border>5</border>
+                                                    <object class="wxButton" name="wxID_CANCEL">
+                                                        <label>&amp;Cancel</label>
+                                                    </object>
+                                                </object>
+                                            </object>
+                                        </object>
+                                    </object>
+                                </object>
+                            </object>
+                        </object>
+                    </object>
+                </object>
+            </object>
+        </object>
+    </object>
+</resource>

@@ -1,0 +1,9 @@
+ADD_EXTRA_SOURCES(MAIN ApplicationWindowManager.cpp Context2D.cpp
+   SingleRasterElementActivationLogic.cpp Context3D.cpp ContextHtml.cpp 
+   ViewerHtml.cpp Context.cpp MainWindow.cpp 
+   MainToolbar.cpp PatFile.cpp PatManagerWidget.cpp
+   PatInfoPart.cpp PatPropertiesHtmlViewerPart.cpp 
+   HtmlPrintButton.cpp XmlContextHandler.cpp
+   ApplicationViewportManager.cpp ContextHandlerFactory.cpp
+   ContextNodeFilter.cpp SeymurConfigurationPart.cpp
+)

@@ -1,0 +1,38 @@
+************************************************************************************
+                                Software 2Mp v3.0.0
+************************************************************************************
+
+(c) CONAE 2009-2015 Todos los derechos reservados.
+Comisión Nacional de Actividades Espaciales de Argentina. http://www.conae.gob.ar
+
+Desarrollado por SUR Emprendimientos Tecnológicos utilizando la
+biblioteca de software geoespacial SuriLib.
+http://www.suremptec.com
+
+-------------------------------------------------------------------------------------
+Requerimientos mínimos de hardware y software:
+* Procesador: 1 GHz
+* Memoria RAM: 256 MB
+* Espacio en disco: 50 Mbytes (no incluye espacio para datos)
+* Video: Monitor color y placa de 24 bits
+* Versión Windows: 2000 / XP / 2003 / Vista / 7
+* Versión Gnu/Linux: Distribución Ubuntu 12.04 LTS (32-bit)
+  ** Para otras distribuiciones: kernel 2.6 (32-bit), libc 2.3, gtk+ 2.4
+
+Requerimientos adicionales recomendados para soporte de 3D:
+* Video: Placa con aceleración OpenGL 1.2
+
+--------------------------------------------------------------------------------
+Instrucciones para la instalación:
+
+* Windows *
+a) Haga un doble clic sobre el archivo instalador y siga las instrucciones.
+
+* GNU/Linux *
+a. Copiar el archivo .package del medio de instalación.
+b. Modificar los permisos para hacerlo ejecutable.
+c. Ejecutar el instalador.
+d. Ingresar el password de root al ser requerido por la aplicación de instalación.
+e. Aceptar la instalación del sistema de soporte autopackage.
+f. Una vez finalizada la instalación de los archivos de soporte autopackage, persionar [ ENTER ] para continuar como es indicado.
+g. La instalación del Software requiere permisos de root, ingresar el password al ser requerido.
