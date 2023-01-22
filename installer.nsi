@@ -497,14 +497,14 @@ ${!defineifexist} BUILD_ENVIRONMENT 19999
 ${!defineifexist} MINIZIP_DLL_NAME ${DLLS_DIR}libminizip.dll
 ${!defineifexist} URI_DLL_NAME ${DLLS_DIR}liburiparser.dll
 ${!defineifexist} SURI_DLL "lib\suri\libsuri.dll"
-${!defineifexist} LIBTIFF_DLL_NAME ${DLLS_DIR}libtiff-3.dll
+${!defineifexist} LIBTIFF_DLL_NAME ${DLLS_DIR}libtiff-5.dll
 ${!defineifexist} LIBPROJ_DLL_NAME ${DLLS_DIR}libproj-0.dll
 ${!defineifexist} LIBGEOS_DLL_NAME ${DLLS_DIR}libgeos_c-1.dll
 ${!defineifexist} LIBCURL_DLL_NAME ${DLLS_DIR}libcurl-4.dll
 ${!defineifexist} LIBEXPAT_DLL_NAME ${DLLS_DIR}libexpat-1.dll
 ${!defineifexist} LIBHDF5_DLL_NAME ${DLLS_DIR}libhdf5.dll
 ${!defineifexist} LIBJPEG_DLL_NAME ${DLLS_DIR}libjpeg-8.dll
-${!defineifexist} LIBTIFFXX_DLL_NAME ${DLLS_DIR}libtiffxx-3.dll
+${!defineifexist} LIBTIFFXX_DLL_NAME ${DLLS_DIR}libtiffxx-5.dll
 ${!defineifexist} LIBZ_DLL_NAME ${DLLS_DIR}libz.dll
 ${!defineifexist} LIBMUPARSER_DLL_NAME ${WX_DLLS_DIR}muparser.dll
 ${!defineifexist} GDAL_DLL_NAME ${DLLS_DIR}libgdal-1.dll
