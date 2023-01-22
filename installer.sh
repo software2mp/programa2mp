@@ -145,8 +145,8 @@ replace_variables
 
 echo COPIANDO ARCHIVOS
 # copio los paquetes, si no existen, los baja
-download_makepackage autopackage.tar.bz2 ${AUTOPACKAGELOCALDIR} http://autopackage.googlecode.com/files/autopackage-1.4.2-x86.tar.bz2
-download_makepackage autopackage-gtk-1.4.2.package ${AUTOPACKAGELOCALDIR} http://autopackage.googlecode.com/files/autopackage-gtk-1.4.2.package
+download_makepackage autopackage.tar.bz2 ${AUTOPACKAGELOCALDIR} https://web.archive.org/web/20100922105211/http://autopackage.googlecode.com/files/autopackage-1.4.2-x86.tar.bz2
+download_makepackage autopackage-gtk-1.4.2.package ${AUTOPACKAGELOCALDIR} https://web.archive.org/web/20100922105211/http://autopackage.googlecode.com/files/autopackage-gtk-1.4.2.package
 
 ARRAY=("${SRCDIR}${EXECUTABLENAME}" "${PACKAGEDIR}"									\
 		"default.apspec" "${PACKAGEDIR}"														\
