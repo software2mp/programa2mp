@@ -8,16 +8,8 @@ FROM spacesur/surilib-environment:2.0.0
 USER builder
 WORKDIR /home/builder
 
-RUN mkdir -p /home/builder/programa2mp/
-COPY ./ /home/builder/programa2mp/
 RUN mkdir -p /home/builder/packages
 
-USER root
-RUN chown builder:builder -R /home/builder/programa2mp/ /home/builder/packages
-
-USER builder 
-
-# Build packages. Binaries will be found on /home/builder/packages inside the container
-CMD cd /home/builder/programa2mp/ ; bash ./build.sh ; cp -v WinBuild/*.exe LinuxBuild/*.deb /home/builder/packages 
+CMD cd /home/builder/programa2mp/ ; ./build.sh
 
 LABEL Name=programa2mp Version=3.0.0
