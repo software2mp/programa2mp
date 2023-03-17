@@ -1,0 +1,4 @@
+**/LinuxBuild
+**/WinBuild
+*.exe
+packages
