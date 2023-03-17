@@ -32,7 +32,7 @@ SET(CPACK_PACKAGING_INSTALL_PREFIX "/tmp")
 SET(CPACK_GENERATOR "DEB")
 
 SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Programa 2Mp")
-SET(CPACK_PACKAGE_DESCRIPTION "En el marco del Plan Espacial Nacional 2004-2015 se crea el 'Programa de Entrenamiento Satelital para ni�os y j�venes 2Mp' con el objetivo de acercar la tecnolog�a satelital a 2 Millones de pibes. A trav�s del desarrollo del Programa 2Mp se busca que los alumnos a partir de 8 a�os de las escuelas de nuestro pa�s conozcan, tengan acceso y utilicen la informaci�n de origen satelital, y que puedan aplicarla en lo sucesivo a las actividades que desarrollan en el �mbito de su vida cotidiana.")
+SET(CPACK_PACKAGE_DESCRIPTION "En el marco del Plan Espacial Nacional 2004-2015 se crea el 'Programa de Entrenamiento Satelital para niños y jóvenes 2Mp' con el objetivo de acercar la tecnología satelital a 2 Millones de pibes. A través del desarrollo del Programa 2Mp se busca que los alumnos a partir de 8 años de las escuelas de nuestro país conozcan, tengan acceso y utilicen la información de origen satelital, y que puedan aplicarla en lo sucesivo a las actividades que desarrollan en el ámbito de su vida cotidiana.")
 
 SET(CPACK_PACKAGE_VENDOR "CONAE")
 SET(CPACK_PACKAGE_CONTACT "programa2mp@conae.gov.ar")
@@ -48,8 +48,8 @@ SET(CPACK_PACKAGE_ICON ${CMAKE_CURRENT_SOURCE_DIR}/lib/resources/bitmaps/icon-Ap
 # Dependencias
 SET(CPACK_DEBIAN_PACKAGE_DEPENDS "libjpeg62, librtmp0")
 SET(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://2mp.conae.gov.ar/")
-SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "SUR Emprendimientos Tecnol�gicos <contacto@suremptec.com.ar>")
-SET(CPACK_DEBIAN_PACKAGE_DESCRIPTION "En el marco del Plan Espacial Nacional 2004-2015 se crea el 'Programa de Entrenamiento Satelital para ni�os y j�venes 2Mp' con el objetivo de acercar la tecnolog�a satelital a 2 Millones de pibes. A trav�s del desarrollo del Programa 2Mp se busca que los alumnos a partir de 8 a�os de las escuelas de nuestro pa�s conozcan, tengan acceso y utilicen la informaci�n de origen satelital, y que puedan aplicarla en lo sucesivo a las actividades que desarrollan en el �mbito de su vida cotidiana.\n")
+SET(CPACK_DEBIAN_PACKAGE_MAINTAINER "SUR Emprendimientos Tecnológicos <contacto@suremptec.com.ar>")
+SET(CPACK_DEBIAN_PACKAGE_DESCRIPTION "En el marco del Plan Espacial Nacional 2004-2015 se crea el 'Programa de Entrenamiento Satelital para niños y jóvenes 2Mp' con el objetivo de acercar la tecnología satelital a 2 Millones de pibes. A través del desarrollo del Programa 2Mp se busca que los alumnos a partir de 8 años de las escuelas de nuestro país conozcan, tengan acceso y utilicen la información de origen satelital, y que puedan aplicarla en lo sucesivo a las actividades que desarrollan en el ámbito de su vida cotidiana.\n")
 SET(CPACK_DEBIAN_PACKAGE_SECTION "graphics")
 SET(CPACK_DEBIAN_ARCHITECTURE ${CMAKE_SYSTEM_PROCESSOR})
 

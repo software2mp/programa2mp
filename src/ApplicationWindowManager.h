@@ -14,7 +14,7 @@
 
 /**
  * Esta clase es el singleton que usa suri::Aplication para inicializar
- * la aplicaci�n.
+ * la aplicación.
  */
 class ApplicationWindowManager {
    //! ctor privado, clase singleton

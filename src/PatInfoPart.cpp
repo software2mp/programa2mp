@@ -335,7 +335,7 @@ bool PatInfoPart::CreatePat(wxString &DescXml, const wxXmlNode *pNodeInfo) {
       wxFileName fnpat(
             MainWindow::Instance().GetPathUserPat() + oldNamePat_
                   + wxFileName::GetPathSeparator(wxPATH_UNIX));
-      /** Toma el path del archivo de configuración. Si este no tiene valor alguno,
+      /** Toma el path del archivo de configuraciÃ³n. Si este no tiene valor alguno,
        * usa la ruta del archivo. */
       wxString pathpat = "";
       wxString configurationPath = suri::Configuration::GetParameter(
