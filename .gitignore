@@ -1,4 +1,5 @@
 **/LinuxBuild
 **/WinBuild
 *.exe
+*.deb
 packages
