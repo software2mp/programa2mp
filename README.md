@@ -1,4 +1,14 @@
+## Repository
+
+This repository should be cloned using `git clone --recurse-submodules` to get all the submodules.
+
 ## Build
+
+### Prerequisites
+
+Docker should be installed and correctly configured
+
+## Instructions
 
 The container will build the current source tree, which has to be mounted onto the image on `/home/builder/programa2mp`.
 
