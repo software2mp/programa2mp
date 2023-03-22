@@ -16,7 +16,7 @@ PROGRAMNAME="Programa 2Mp"
 # debe coincidir con el definido en CMakeLists.txt
 EXECUTABLENAME=Programa2Mp
 # bibliotecas a incluir en el paquete
-INCLUDEDLIBS="wx|gdal|hdf|mfhdf|proj|jasper|geos|geotiff|curl|expat|kml|muparser|suri|minizip|uriparser|sqlite3|openjp2|${AUTOPACKAGELOCALDIR}"
+INCLUDEDLIBS="wx|gdal|hdf|mfhdf|proj|jasper|geos|geotiff|curl|expat|kml|muparser|suri|minizip|uriparser|sqlite|openjp2|${AUTOPACKAGELOCALDIR}"
 
 # nombre (deseado) del programa en minuscula
 PROGRAMNAMELOWERCASE=$(echo ${EXECUTABLENAME} | tr "[:upper:]" "[:lower:]")
@@ -189,17 +189,19 @@ for hidden_file in $(find "${PACKAGEDIR}" -name ".*") ; do
 done
 echo " [ OK ]"
 
-echo -n "GENERANDO INSTALADOR"
-cd "${PACKAGEDIR}"
-makepackage default.apspec > package.log 2>&1
-if [ ! $? ] ; then
-	echo " [ FALLA ]" ; cat package.log ; rm package.log ; exit 1
+if [ `which makepackage` ] ; then
+	echo -n "GENERANDO INSTALADOR" ; set -x
+	cd "${PACKAGEDIR}"
+	makepackage default.apspec > package.log 2>&1
+	if [ ! $? ] ; then
+		echo " [ FALLA ]" ; cat package.log ; rm package.log ; exit 1
+	fi
+	echo " [ OK ]"
+	cat package.log
+	rm package.log
+	cd ..
+	cp "${PACKAGEDIR}"/*.package .
 fi
-echo " [ OK ]"
-cat package.log
-rm package.log
-cd ..
-cp "${PACKAGEDIR}"/*.package .
 
 echo FIN
 exit 0

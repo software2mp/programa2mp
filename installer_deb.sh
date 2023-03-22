@@ -9,7 +9,7 @@ PACKAGEDIR=package/
 # de autopackage
 AUTOPACKAGELOCALDIR=$HOME/opt/
 # Directorio de origen de datos
-SRCDIR=src/
+SRCDIR=src
 # nombre deseado (sin espacios)
 PROGRAMNAME="Programa 2Mp"
 # nombre del ejecutable que queda en el directorio de compilacion
@@ -103,7 +103,7 @@ download_makepackage(){
 			echo " [ FALLA ]"
 			cat wget-error.log
 			rm "${PACKAGESOURCE}/${PACKAGENAME}"
-			else
+		else
 			echo " [ok]"
 		fi
 		set -e
@@ -126,12 +126,12 @@ copy_files(){
 				mkdir -p "${DESTDIR}"
 			fi
 			if [ -f "${SRC}" ] ; then
-			cp "${SRC}" "${DEST}"
+				cp "${SRC}" "${DEST}"
 			else
 				echo " [ No se encontro ${SRC} ]"
 				continue
-		fi		
-		fi		
+			fi
+		fi
 		echo " [ OK ]"
 	done
 }
@@ -148,13 +148,13 @@ echo COPIANDO ARCHIVOS
 download_makepackage autopackage.tar.bz2 ${AUTOPACKAGELOCALDIR} http://autopackage.googlecode.com/files/autopackage-1.4.2-x86.tar.bz2
 download_makepackage autopackage-gtk-1.4.2.package ${AUTOPACKAGELOCALDIR} http://autopackage.googlecode.com/files/autopackage-gtk-1.4.2.package
 
-ARRAY=("${SRCDIR}${EXECUTABLENAME}" "${PACKAGEDIR}"									\
+ARRAY=("${SRCDIR}/${EXECUTABLENAME}" "${PACKAGEDIR}"									\
 		"default.apspec" "${PACKAGEDIR}"														\
-		"${SRCDIR}data" "${PACKAGEDIR}"														\
+		"${SRCDIR}/data" "${PACKAGEDIR}"														\
 		"lib/resources/bitmaps/icon-Application-48.png" "${PACKAGEDIR}hicolor/48x48/apps/${ICON}"			\
 		"lib/resources/bitmaps/icon-PATFile-48.png" "${PACKAGEDIR}hicolor/48x48/mimetypes/${MIMEICON}"	\
 		"LinuxShortcut.desktop" "${PACKAGEDIR}${DESKTOPNAME}"							\
-		"${SRCDIR}configuracion.xml" "${PACKAGEDIR}data/"								\
+		"${SRCDIR}/configuracion.xml" "${PACKAGEDIR}data/"								\
 		${AUTOPACKAGELOCALDIR}autopackage.tar.bz2 "${AUTOPACKAGES}"					\
 		${AUTOPACKAGELOCALDIR}autopackage-gtk-1.4.2.package "${AUTOPACKAGES}"	\
 		application.xml "${PACKAGEDIR}application-${MIMEEXTENSION}.xml")
@@ -202,17 +202,19 @@ for hidden_file in $(find "${PACKAGEDIR}" -name ".*") ; do
 done
 echo " [ OK ]"
 
-echo -n "GENERANDO INSTALADOR"
-cd "${PACKAGEDIR}"
-makepackage default.apspec > package.log 2>&1
-if [ ! $? ] ; then
-	echo " [ FALLA ]" ; cat package.log ; rm package.log ; exit 1
+if [ `which makepackage` ] ; then
+	echo -n "GENERANDO INSTALADOR" ; set -x
+	cd "${PACKAGEDIR}"
+	makepackage default.apspec > package.log 2>&1
+	if [ ! $? ] ; then
+		echo " [ FALLA ]" ; cat package.log ; rm package.log ; exit 1
+	fi
+	echo " [ OK ]"
+	cat package.log
+	rm package.log
+	cd ..
+	cp "${PACKAGEDIR}"/*.package .
 fi
-echo " [ OK ]"
-cat package.log
-rm package.log
-cd ..
-cp "${PACKAGEDIR}"/*.package .
 
 echo FIN
 exit 0
