@@ -1,4 +1,4 @@
 [submodule "lib/suri"]
 	path = lib/suri
-	url = ../surilib/surilib.git
+	url = ../surilib.git
 	branch = main
