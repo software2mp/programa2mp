@@ -1,4 +1,4 @@
-export COMPILER_FLAGS="-Wall -Wno-format-security -Wno-format-nonliteral -Wno-write-strings -Wunused-variable"
+export COMPILER_FLAGS="-Wall -Wno-format-security -Wno-unused-but-set-variable -Wno-format-nonliteral -Wno-write-strings -Wunused-variable"
 export BUILD_TYPE=Release
 export OUT_OF_SOURCE_BUILD=true
 
